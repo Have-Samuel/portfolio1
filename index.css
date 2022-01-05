@@ -1,6 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Montserrat:wght@500&family=Poppins:wght@200&family=Quicksand:wght@700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Montserrat:wght@500&family=Poppins:wght@200&family=Roboto:wght@700&display=swap');
+
+body {
+  margin: 0 auto;
+  width: 400px;
+}
+
+ul {
+  list-style: none;
+}
+
 .navbar {
-  background: rgba(60, 58, 57, 1);
-  height: 90px;
-  width: 100%;
-  padding: 16px;
+  background: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  cursor: pointer;
+  padding: 10px;
+  color: white;
+}
+
+.menu-img {
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+}
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c3a39;
+  height: 72px;
+  color: white;
+  align-items: center;
+}
+
+.section1 {
+  background-color: #1c1a19;
+  align-items: center;
+  height: 730px;
+  background-image: url("images/Group.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: 'Crete Round', serif;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #ff6b00;
+  padding: 120px 24px 12px 24px;
+}
+
+.sub-title {
+  color: #fff;
+  padding: 12px 24px 12px 24px;
+  height: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 32px;
+}
+
+.paragraph {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 12px 24px 12px 24px;
+}
+
+.items {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 30px;
+  padding: 12px 151px 120px 24px;
 }
