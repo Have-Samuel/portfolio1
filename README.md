@@ -1,59 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio: setup and mobile version skeleton
 
-> One paragraph statement about the project.
+> This is my fast page of the Portfolio.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./portfolio.png)
 
-Additional description about the project and its features.
+This is the screenshot of my page
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
+- Git and Github
+- Linters
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://have-samuel.github.io/portfolio1/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Have Git  installed correctly.
 
-### Setup
+### setup
+open the terminal and install the copy of the repository.
 
 ### Install
-
+Use the commad below to get a copy:
+```
+git clone git@github.com:Have-Samuel/portfolio1.git
+```
 ### Usage
-
-### Run tests
-
-### Deployment
-
-
-
+Make any necessary editing.
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Have-Samuel**
+- GitHub: [@githubhandle](https://github.com/Have-Samuel)
+- Twitter: [@twitterhandle](https://twitter.com/home)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/feed/)
 
 ## 🤝 Contributing
 
@@ -67,9 +55,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks Microverse for the guidlines.
 
 ## 📝 License
 

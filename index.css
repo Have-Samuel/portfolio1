@@ -25,6 +25,8 @@ ul {
   cursor: pointer;
   padding: 10px;
   color: white;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
 }
 
 .menu-img {
