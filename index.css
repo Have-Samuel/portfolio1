@@ -170,11 +170,10 @@ ul a {
   padding: 5px;
 }
 
-.tag1:enabled {
-  background: #f36333;
-  text-decoration: underline #f3734c;
-  border: 2px solid #ee735e;
-  color: #fff;
+.tag1:hover {
+  background: #f4f1f0;
+  text-decoration: underline #87ceeb;
+  border: 2px solid #87ceeb;
 }
 
 .tag2 {
@@ -200,7 +199,7 @@ ul a {
   padding: 5px;
 }
 
-.tag3:disabled {
+.tag3:hover {
   background: #f4f1f0;
   text-decoration: underline #87ceeb;
   border: 2px solid #87ceeb;
@@ -340,7 +339,7 @@ ul a {
 }
 
 .aboutme-section {
-  height: 1650px;
+  height: 1700px;
   background: #1c1a19;
 }
 
@@ -361,6 +360,7 @@ ul a {
   line-height: 88px;
   text-align: center;
   color: rgba(255, 107, 0, 1);
+  padding: 120px 24px 24px 24px;
 }
 
 .aboutme-paragraph {
