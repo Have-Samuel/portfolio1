@@ -110,7 +110,7 @@ ul {
 
 .heading {
   height: 83px;
-  font-family: 'Crete Round' sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -523,7 +523,7 @@ ul a {
 
 .aboutme-skills-items {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-family: 'inter', sans-serif;
