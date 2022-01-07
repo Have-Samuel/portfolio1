@@ -149,10 +149,12 @@ ul {
 }
 
 .tags {
-  display: inline-grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 15px;
-  padding: 0 54px 12px 24px;
+  display: flex;
+  justify-content: space-around;
+  margin: 12px 24px 12px -34px;
+  height: 40px;
+  align-items: center;
+  padding: 5px;
 }
 
 ul a {

@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile version skeleton
+# Portfolio: Mobile version 
 
-> This is my fast page of the Portfolio.
+> This is my fast Portfolio page.
 
-![screenshot](./portfolio.png)
+![screenshot](./A Portfolio.png)
 
 This is the screenshot of my page
 
@@ -13,7 +13,7 @@ This is the screenshot of my page
 - HTML & CSS
 - Git and Git
 - Linters
-
+- Flexbox and CSS Grid Layout
 ## Live Demo
 
 [Live Demo Link](https://github.com/Have-Samuel/portfolio1)
