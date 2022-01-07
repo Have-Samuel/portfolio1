@@ -605,7 +605,7 @@ ul a {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   grid-gap: 2px;
-  margin: 15px 88px 13px 88px;
+  margin: 15px 88px 0 60px;
 }
 
 .media-item1:hover {
