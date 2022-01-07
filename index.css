@@ -155,6 +155,8 @@ ul {
   height: 40px;
   align-items: center;
   padding: 5px;
+  color: rgba(9, 30, 66, 1);
+
 }
 
 ul a {
@@ -167,13 +169,13 @@ ul a {
   align-items: center;
   border: 1px solid #091e42;
   padding: 5px;
-  color: #091e42;
 }
 
-.tag1:hover {
-  background: #f4f1f0;
-  text-decoration: underline #87ceeb;
-  border: 2px solid #87ceeb;
+.tag1:enabled {
+  background: #f36333;
+  text-decoration: underline #f3734c;
+  border: 2px solid #ee735e;
+  color: #fff;
 }
 
 .tag2 {
@@ -182,7 +184,6 @@ ul a {
   align-items: center;
   border: 1px solid #091e42;
   padding: 5px;
-  color: #091e42;
 }
 
 .tag2:hover {
@@ -198,10 +199,9 @@ ul a {
   margin: 0;
   border: 1px solid #091e42;
   padding: 5px;
-  color: #091e42;
 }
 
-.tag3:hover {
+.tag3:disabled {
   background: #f4f1f0;
   text-decoration: underline #87ceeb;
   border: 2px solid #87ceeb;
@@ -213,7 +213,6 @@ ul a {
   align-items: center;
   border: 1px solid #091e42;
   padding: 5px;
-  color: #091e42;
 }
 
 .tag4:hover {
@@ -243,7 +242,7 @@ ul a {
 .section3 {
   padding: 24px;
   margin: 24px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/Background.png);
+  background: linear-gradient(180.45deg, rgba(165, 163, 163, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/Background.png);
 }
 
 .section3-heading {
@@ -268,16 +267,17 @@ ul a {
   list-style: none;
   justify-content: space-evenly;
   padding: 0 75px 22px 4px;
+  
 }
 
 .section3-item1 {
-  background: #ffffff3d;
+  background: #ffffff7e;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #091e42;
-  padding: 5px;
-  color: #091e42;
+  border: 0 solid #f0f2f5;
+  padding: 8px;
+  color: white;
 }
 
 .section3-item1:hover {
@@ -287,13 +287,13 @@ ul a {
 }
 
 .section3-item2 {
-  background: #ffffff3d;
+  background: #ffffff7e;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #091e42;
-  padding: 5px;
-  color: #091e42;
+  border: 0 solid #091e42;
+  padding: 8px;
+  color: #fff;
 }
 
 .section3-item2:hover {
@@ -306,10 +306,10 @@ ul a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #091e42;
-  padding: 5px;
-  color: #091e42;
-  background: #ffffff3d;
+  border: 0 solid #091e42;
+  padding: 8px;
+  color: #fff;
+  background: #ffffff7e;
 }
 
 .section3-item3:hover {
