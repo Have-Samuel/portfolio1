@@ -11,12 +11,12 @@ This is the screenshot of my page
 ## Built With
 
 - HTML & CSS
-- Git and Github
+- Git and Git
 - Linters
 
 ## Live Demo
 
-[Live Demo Link](https://have-samuel.github.io/portfolio1/)
+[Live Demo Link](https://github.com/Have-Samuel/portfolio1)
 
 
 ## Getting Started
