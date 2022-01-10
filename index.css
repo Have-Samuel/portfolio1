@@ -148,6 +148,20 @@ ul {
   color: #091e42;
 }
 
+.language-container p{
+  background: #ffffff7e;
+  float: left;
+  border: 1px solid #626466;
+  padding: 8px;
+  color: #1d1c1c;
+  margin-left: 24px;
+}
+
+.language-container p:hover {
+  text-decoration: underline #87ceeb;
+  border: 2px solid #87ceeb;
+}
+
 .tags {
   display: flex;
   justify-content: space-around;
