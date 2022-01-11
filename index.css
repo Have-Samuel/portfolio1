@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Montserrat:wght@500&family=Poppins:wght@200&family=Quicksand:wght@700&family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Montserrat:wght@500&family=Poppins:wght@200&family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Montserrat:wght@500&family=Poppins:wght@200&family=Quicksand:wght@700&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Montserrat:wght@500&family=Poppins:wght@200&family=Roboto:wght@700&display=swap");
 
 body {
   margin: 0 auto;
@@ -25,7 +25,7 @@ ul {
   cursor: pointer;
   padding: 10px;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ ul {
 .title {
   font-size: 56px;
   font-weight: 400;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   margin-bottom: 0;
   margin-top: 0;
   color: #ff6b00;
@@ -67,14 +67,14 @@ ul {
   color: #fff;
   padding: 12px 24px 12px 24px;
   height: 27px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-style: normal;
   line-height: 32px;
 }
 
 .paragraph {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   color: #fff;
@@ -110,7 +110,7 @@ ul {
 
 .heading {
   height: 83px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -133,7 +133,7 @@ ul {
 }
 
 .stories {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 32px;
   font-weight: 400;
   padding: 24px 24px 0 24px;
@@ -142,13 +142,13 @@ ul {
 
 .section-paragraph {
   width: 327px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 24px;
   padding: 0 24px 12px 24px;
   color: #091e42;
 }
 
-.language-container p{
+.language-container p {
   background: #ffffff7e;
   float: left;
   border: 1px solid #626466;
@@ -239,7 +239,7 @@ ul a {
   padding: 15px;
   text-decoration: none;
   display: inline-block;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
@@ -254,12 +254,17 @@ ul a {
 .section3 {
   padding: 24px;
   margin: 24px;
-  background: linear-gradient(180.45deg, rgba(165, 163, 163, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/Background.png);
+  background: linear-gradient(
+      180.45deg,
+      rgba(165, 163, 163, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(images/Background.png);
 }
 
 .section3-heading {
   margin: 84px 16px 12px 16px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
@@ -268,7 +273,7 @@ ul a {
 
 .section3-paragraph {
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin: 12px 16px;
   line-height: 24px;
 }
@@ -333,7 +338,7 @@ ul a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
@@ -367,7 +372,7 @@ ul a {
 
 .aboutme-heading {
   height: 79px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
@@ -379,7 +384,7 @@ ul a {
 
 .aboutme-paragraph {
   height: 148px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 24px;
   color: rgba(244, 245, 247, 1);
   margin: 24px;
@@ -387,7 +392,7 @@ ul a {
 
 .aboutme-button {
   height: 48px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   text-decoration: none;
   padding: 12px;
@@ -429,7 +434,7 @@ ul a {
 }
 
 .languages-1 {
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-size: 32px;
   font-weight: 700;
   color: #fff;
@@ -444,7 +449,7 @@ ul a {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   color: #fff;
   font-size: 20px;
   list-style: none;
@@ -477,7 +482,7 @@ ul a {
 }
 
 .frameworks-1 {
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-size: 32px;
   font-weight: 700;
   color: #fff;
@@ -492,7 +497,7 @@ ul a {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   color: #fff;
   font-size: 20px;
   list-style: none;
@@ -525,7 +530,7 @@ ul a {
 }
 
 .skills-1 {
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-size: 32px;
   font-weight: 700;
   color: #fff;
@@ -540,7 +545,7 @@ ul a {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   color: #fff;
   font-size: 20px;
   list-style: none;
@@ -558,7 +563,7 @@ ul a {
 
 .last-paragraph {
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -586,7 +591,7 @@ ul a {
 
 .textarea {
   margin: 36px;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-size: 15px;
   line-height: 24px;
   padding: 12px;
@@ -600,7 +605,7 @@ ul a {
   padding: 15px;
   text-decoration: none;
   display: inline-block;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
@@ -655,11 +660,12 @@ ul a {
 .contact-section form {
   width: 90%;
   margin: 0 auto;
+  border-bottom: 1px solid gray;
 }
 
 .contact-section p {
   color: #172b4d;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -671,12 +677,12 @@ ul a {
   width: 327px;
 }
 
-.contact-section input {
+.input-contact {
   height: 18px;
   width: 295px;
   left: 16px;
   top: 15px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -689,4 +695,34 @@ ul a {
 
 .contact-section textarea {
   width: 100%;
+  background-color: #FBF8F7;
+}
+
+.contact-button {
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding: 12px;
+  background: rgba(255, 107, 0, 1);
+  border: none;
+  width: 40%;
+  color: #fff;
+  margin: 40px auto;
+  margin-bottom: 136px;
+}
+
+.contact-section ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 30px 0;
 }
