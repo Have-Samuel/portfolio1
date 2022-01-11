@@ -4,7 +4,7 @@
 
 > This is my fast Portfolio page.
 
-![screenshot](./A Portfolio.png)
+![screenshot](./portfolio.png)
 
 This is the screenshot of my page
 
@@ -16,7 +16,7 @@ This is the screenshot of my page
 - Flexbox and CSS Grid Layout
 ## Live Demo
 
-[Live Demo Link](https://github.com/Have-Samuel/portfolio1/pull/2)
+[Live Demo Link](https://have-samuel.github.io/portfolio1/)
 
 
 ## Getting Started
