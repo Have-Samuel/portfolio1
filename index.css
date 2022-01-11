@@ -646,3 +646,13 @@ ul a {
 .shaping-img {
   margin: 23px 121px 8px 120px;
 }
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section form {
+  width: 90%;
+  margin: 0 auto;
+}
