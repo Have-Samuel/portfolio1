@@ -157,11 +157,6 @@ ul {
   margin-left: 24px;
 }
 
-.language-container p:hover {
-  text-decoration: underline #87ceeb;
-  border: 2px solid #87ceeb;
-}
-
 .tags {
   display: flex;
   justify-content: space-around;
@@ -254,7 +249,8 @@ ul a {
 .section3 {
   padding: 24px;
   margin: 24px;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(165, 163, 163, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -658,8 +654,6 @@ ul a {
 }
 
 .contact-section form {
-  width: 90%;
-  margin: 0 auto;
   border-bottom: 1px solid gray;
 }
 
@@ -670,11 +664,14 @@ ul a {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
-  text-align: center;
+  letter-spacing: 0;
   margin: 120px 24px 73px 24px;
-  height: 216px;
-  width: 327px;
+  text-align: center;
+}
+
+.language-container p:hover {
+  text-decoration: underline #87ceeb;
+  border: 2px solid #87ceeb;
 }
 
 .input-contact {
@@ -682,21 +679,30 @@ ul a {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-style: normal;
-  margin: 73px 40px 14px 40px;
+  margin: 33px 40px 0 40px;
   border: none;
 }
 
+.contact-section_line1 {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
 .contact-section textarea {
-  width: 100%;
   background-color: #fbf8f7;
-  margin-top: 24px;
+  margin: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  width: 81%;
 }
 
 .contact-button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -706,8 +712,13 @@ ul a {
   border: none;
   width: 40%;
   color: #fff;
-  margin: 40px auto;
+  margin: 24px auto;
   margin-bottom: 136px;
+}
+
+.contact-button:hover {
+  text-decoration: underline #87ceeb;
+  border: 2px solid #87ceeb;
 }
 
 .contact-section ul {
@@ -715,4 +726,13 @@ ul a {
   justify-content: center;
   margin: 0 auto;
   padding: 30px 0;
+}
+
+.ending-lining {
+  height: 5px;
+  width: 134px;
+  left: 120px;
+  top: 21px;
+  border-radius: 10px;
+  background: rgba(13, 21, 30, 1);
 }
