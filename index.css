@@ -734,6 +734,25 @@ body {
   cursor: pointer;
 }
 
+.logo{
+  animation-duration: 2s;
+  animation-name: rotate;
+}
+
+@keyframes rotate {
+  from {
+   transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.placeholder:hover{
+  transform: scale(1.2);
+}
+
 .navbar ul li:hover {
   text-decoration: 2px underline #87ceeb;
 }
