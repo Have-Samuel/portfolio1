@@ -912,7 +912,6 @@ ul a {
   .section3 {
     width: 330px;
   }
-
 }
 
 @media only screen and (min-width: 992px) {
@@ -981,5 +980,4 @@ ul a {
     display: flex;
     flex-direction: column;
   }
-
 }
