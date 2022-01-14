@@ -717,6 +717,7 @@ ul a {
   border-radius: 10px;
   background: rgba(13, 21, 30, 1);
 }
+
 .aboutme-header img {
   display: none;
 }
@@ -735,22 +736,22 @@ ul a {
     cursor: pointer;
   }
 
-  .logo{
+  .logo {
     animation-duration: 2s;
     animation-name: rotate;
   }
 
   @keyframes rotate {
     from {
-    transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
   }
 
-  to {
-    transform: rotate(360deg);
-  }
-  }
-
-  .placeholder:hover{
+  .placeholder:hover {
     transform: scale(1.2);
   }
 
@@ -758,7 +759,7 @@ ul a {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-    align-items: baseline; 
+    align-items: baseline;
     padding: 0 60px;
   }
 
@@ -778,7 +779,7 @@ ul a {
     display: flex;
     margin-right: 32px;
   }
-  
+
   .navbar a {
     display: flex;
   }
@@ -786,7 +787,7 @@ ul a {
   .hamburger-button {
     display: none;
   }
-  
+
   .section1 {
     display: flex;
     flex-direction: row-reverse;
@@ -871,9 +872,6 @@ ul a {
   .section2-placeholder {
     display: flex;
     width: 80%;
-  /*   
-    margin-top: 114px;
-    margin-bottom: 24px; */
     margin: 24px auto;
   }
 
@@ -905,7 +903,6 @@ ul a {
   .section2-paragraph {
     font-family: "Inter", sans-serif;
     line-height: 24px;
-    /* padding: 0 24px 12px 24px; */
     color: #091e42;
   }
 
