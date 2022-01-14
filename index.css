@@ -106,19 +106,21 @@ ul {
 
 .head-line {
   margin: 0 24px;
-  border: 1px solid rgba(33, 33, 33, 1);
+  border: 1px solid #212121;
 }
 
-.section2-Head_lining h2, hr{
-  color: #1c1a19;
-  text-align: center;
-  width: 90%;
-  margin: 24px auto;
+.section2-Head_lining h2 {
+  color: #091e42;
+  font-family: 'Crete Round', serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0 auto;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.section2-Head_lining h2{
-  margin-top: 120px;
-}
 .placeholder {
   width: 90%;
   padding: 56px 24px 24px 24px;
@@ -868,11 +870,19 @@ body {
   padding: 0;
 }
 
-.section2-Head_lining h2{
-  text-align: left;
-  margin: 24px 5px 24px 0;
-  width: 20%;
+.section2-Head_lining h2 {
+  color: #091e42;
+  font-family: 'Crete Round', serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0 auto;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
 .section2-Head_lining hr {
   height: 0;
   width: 75%;
