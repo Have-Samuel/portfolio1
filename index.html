@@ -13,17 +13,19 @@
         <nav class="navbar">
           <a class="logo" href="#">My Logo</a>
           <button type="button" class="hamburger-button">&#8801;</button>
+          <div class="navbar-links">
           <ul>
             <li>Portfolio</li>
             <li>About</li>
             <li>Contact</li>
-            <li class="mail">&#9993;</li>
           </ul>
+          <button class="mail">&#9993;</button>
+        </div>
         </nav>
       </header>
       <section class="section1">
         <div class="section-info">
-          <h1 class="title">Hey There. I'm Samuel</h1>
+          <h1 class="title">Hey There.<br> I'm Samuel</h1>
           <h4 class="sub-title">I'am a software Developer</h4>
           <p class="paragraph">
             I can help you build a product , feature or website Look through
@@ -56,14 +58,11 @@
       <section class="section2">
         <div class="section2-Head_lining">
           <h2 class="heading">My Recent Works</h2>
-          <hr class="first-line" />
+          <hr class="first-line"/>
         </div>
         <div class="section2-placeholder">
           <img
-            class="placeholder"
-            src="images/Placeholder.png"
-            alt="placeholder"
-          />
+            class="placeholder"src="images/Placeholder.png"alt="placeholder"/>
           <div class="project-info">
             <div class="section2-wordings">
               <h3 class="stories">Multi-Post Stories</h3>
@@ -73,7 +72,6 @@
                 text ever since the 1500s, when an unknown printer took a
                 standard dummy text.
               </p>
-            </div>
             <div class="language-container">
               <p>CSS</p>
               <p>HTML</p>
@@ -82,10 +80,11 @@
             </div>
             <a href="#" class="see__project">See Project</a>
           </div>
+          </div>
         </div>
         <div class="section-cards">
           <section class="section3">
-            <h4 class="section3-heading">Proffesional Art Printing Data</h4>
+            <!--<h4 class="section3-heading">Proffesional Art Printing Data</h4>
             <p class="section3-paragraph">
               A daily selection of privately personalized reads; no accounts or
               sign-ups required. has been the industry's standard
@@ -94,8 +93,8 @@
               <li class="section3-item1">HTML</li>
               <li class="section3-item2">Bootstrap</li>
               <li class="section3-item3">Ruby</li>
-            </ul>
-            <a href="#" class="section3__project">See Project</a>
+            </ul>-->
+            <a href="#" class="section3__project1">See Project</a>
           </section>
           <section class="section3">
             <h4 class="section3-heading">Proffesional Art Printing Data</h4>
@@ -219,6 +218,7 @@
         </div>
         </section>
         <section class="contact-section">
+          <div class="contact-section_form">
           <p>
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.
@@ -244,8 +244,7 @@
             />
             <br />
             <hr class="contact-section_line1" />
-            <textarea
-              name="comments"
+            <textarea name="comments"
               id="comments"
               cols="40"
               rows="10"
@@ -253,34 +252,26 @@
               placeholder="Enter text here"
               required
             ></textarea>
-            <br />
-            <input type="submit" class="contact-button" value="Get in touch" />
+            
+            <input type="submit" class="contact-button" value="Get in touch"/>
+          </div>
           </form>
+          <hr class="vector-lining" />
           <ul class="items">
             <li>
-              <a href="#"
-                ><img class="item1" src="images/Github.png" alt="github"
-              /></a>
+              <a href="#"><img class="item1" src="images/Github.png" alt="github"/></a>
             </li>
             <li>
-              <a href="#"
-                ><img class="item2" src="images/Inner.png" alt="images-iner"
-              /></a>
+              <a href="#"><img class="item2" src="images/Inner.png" alt="images-iner"/></a>
             </li>
             <li>
-              <a href="#"
-                ><img class="item3" src="images/Peace.png" alt="media"
-              /></a>
+              <a href="#"><img class="item3" src="images/Peace.png" alt="media"/></a>
             </li>
             <li>
-              <a href="#"
-                ><img class="item4" src="images/Twitter.png" alt="twitter-icon"
-              /></a>
+              <a href="#"><img class="item4" src="images/Twitter.png" alt="twitter-icon"/></a>
             </li>
             <li>
-              <a href="#"
-                ><img class="item5" src="images/Mail.png" alt="mail-icon"
-              /></a>
+              <a href="#"><img class="item5" src="images/Mail.png" alt="mail-icon"/></a>
             </li>
           </ul>
           <hr class="ending-lining" />
