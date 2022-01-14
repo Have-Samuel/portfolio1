@@ -729,6 +729,10 @@ ul a {
     margin: 0 auto;
   }
 
+  .navbar li {
+    margin-right: 32px;
+  }
+
   .navbar ul li {
     display: flex;
     color: #fff;
@@ -767,10 +771,6 @@ ul a {
     justify-content: space-between;
     align-items: baseline;
     padding: 0 60px;
-  }
-
-  .navbar li {
-    margin-right: 32px;
   }
 
   .section1 ul li {
@@ -839,8 +839,6 @@ ul a {
     margin-top: 279px;
     margin-bottom: 200px;
   }
-
- 
 
   .mail {
     font-size: 25px;
