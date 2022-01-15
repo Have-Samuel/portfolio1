@@ -670,7 +670,6 @@ ul a {
   font-style: normal;
   margin: 33px 40px 0 40px;
   border: none;
-
 }
 
 .contact-section_line1 {
@@ -744,7 +743,7 @@ ul a {
   .aboutme-Languages li {
     margin-right: 100%;
     width: 65%;
-    padding:15%;
+    padding: 15%;
   }
 
   .navbar ul li {
@@ -817,7 +816,7 @@ ul a {
     align-items: center;
     background: url('desktop-images/Illustration-header.png');
     background-color: #1c1a19;
-    background-position:  right top;
+    background-position: right top;
     background-repeat: no-repeat;
   }
 
@@ -882,7 +881,7 @@ ul a {
   }
 
   hr {
-    width: 90%;
+    width: 100%;
     border: 1px solid #e4dede;
   }
 
@@ -937,7 +936,7 @@ ul a {
     background: #ff6b00;
     border: none;
     width: 30%;
-    color: #fff;  
+    color: #fff;
   }
 
   .section-cards {
@@ -959,7 +958,7 @@ ul a {
   }
 
   .section3 {
-    width:27%;
+    width: 27%;
   }
 
   .section3 > h4 {
@@ -1143,7 +1142,8 @@ ul a {
     margin-left: 3%;
   }
 
-  .contact-section_form > hr {
+  .new-lining {
+    width: 85%;
     margin-right: 10%;
   }
 
@@ -1163,5 +1163,4 @@ ul a {
     color: #fff;
     margin-right: 66%;
   }
-
 }
