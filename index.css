@@ -1130,35 +1130,44 @@ ul a {
     }
 
     .contact-section_form {
-     display: flex;
+      width: 100%;
+      display: flex;
     }
 
     .contact-section_form p {
-      width: 30%;
-      margin-top: 13%;
+      width: 90%;
+      margin-right: 0;
+      margin-top: 15%;
+      align-items: left;
       text-align: left;
+      margin-left: 3%;
     }
 
     .contact-section_form form {
-     width: 70%;
-     margin-top: 10%;
+      width: 150%;
+      margin-top: 10%;
+      margin-right: 10%;
+      margin-left: 3%;
     }
 
     .contact-section_line1 {
-      margin-right: 90px;
+      margin-right: 10%;
     }
-
     .contact-section_form .contact-button {
-      background-color: #ff6b00;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: 'Inter',sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      padding: 10px 0;
+      background: #ff6b00;
+      border: none;
+      width: 30%;
       color: #fff;
-      padding: 15px;
-      display: inline-block;
-      font-family: "Inter", sans-serif;
-      font-size: 18px;
-      cursor: pointer;
-      width: 137px;
-      margin-left: 26px;
+      margin-right: 66%;
     }
-
+      
   }
-  
