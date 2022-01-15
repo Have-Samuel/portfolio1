@@ -670,6 +670,7 @@ ul a {
   font-style: normal;
   margin: 33px 40px 0 40px;
   border: none;
+
 }
 
 .contact-section_line1 {
@@ -881,7 +882,7 @@ ul a {
   }
 
   hr {
-    width: 100%;
+    width: 90%;
     border: 1px solid #e4dede;
   }
 
@@ -1142,7 +1143,7 @@ ul a {
     margin-left: 3%;
   }
 
-  .contact-section_line1 {
+  .contact-section_form > hr {
     margin-right: 10%;
   }
 
