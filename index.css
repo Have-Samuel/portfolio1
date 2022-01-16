@@ -453,17 +453,24 @@ ul a {
 }
 
 .aboutme-Languages {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   padding-top: 20%;
-  width: 100%;
 }
 
+.header-languages {
+  display: flex;
+  margin-left: 70px;
+}
+
+.header-languages img {
+  margin-top: 29px;
+}
 
 .diagonal-img {
   height: 40px;
-  margin-right: 20px;  
+  margin-left: 10px;  
 }
 
 .diagonal-img:hover {
@@ -554,7 +561,6 @@ ul a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
 }
 
 .circle-img {
@@ -1152,28 +1158,25 @@ ul a {
 
   .language-section {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    margin-right: 8%;
   }
 
   .aboutme-Languages {
-    display: flex;
-    flex-direction: column;
-    margin: 80px;
-    width: 40%;
-  }
-
-  .header-languages img {
-    padding-right: 5%;
+    display: block;
+    margin-left: 150px;
   }
 
   .header-languages {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    margin-left: -70px;
+  }
+  
+  .header-languages p {
+    margin-left: 0;
+  }
+
+  .header-languages img {
+    padding-right: 10px;
+    padding-top: 14px;
   }
 
   .contact-section_form {
