@@ -470,7 +470,7 @@ ul a {
 
 .diagonal-img {
   height: 40px;
-  margin-left: 10px;  
+  margin-left: 10px;
 }
 
 .diagonal-img:hover {
@@ -481,7 +481,7 @@ ul a {
   font-family: "inter", sans-serif;
   font-size: 32px;
   font-weight: 700;
-  color: #fff;  
+  color: #fff;
 }
 
 .languages-1:hover {
@@ -1169,7 +1169,7 @@ ul a {
     display: flex;
     margin-left: -70px;
   }
-  
+
   .header-languages p {
     margin-left: 0;
   }
@@ -1200,7 +1200,7 @@ ul a {
   }
 
   .new-lining {
-   width: 20%;
+    width: 20%;
     margin-right: 10%;
   }
 
