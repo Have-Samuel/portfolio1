@@ -151,6 +151,7 @@ ul {
 }
 
 .language-container ul {
+  display: flex;
   margin: 12px 14px 12px 12px;
   padding: 5px;
   color: #091e42;
@@ -161,7 +162,6 @@ ul a {
 }
 
 .language-container ul li {
-  float: left;
   border: 1px solid #091e42;
   padding: 7px;
   margin: 8px;
@@ -206,7 +206,6 @@ ul a {
   align-items: center;
   text-align: center;
   font-weight: 700;
-  float: left;
 }
 
 .see__project:hover {
