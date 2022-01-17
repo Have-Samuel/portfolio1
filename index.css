@@ -85,6 +85,12 @@ ul {
   padding: 12px 151px 120px 24px;
 }
 
+.language-container ul li {
+  border: 1px solid #091e42;
+  padding: 7px;
+  margin: 8px;
+}
+
 .items li:hover {
   border: 2px solid #87ceeb;
 }
@@ -150,7 +156,7 @@ ul {
   color: #091e42;
 }
 
-.language-container{
+.language-container {
   width: 400px;
   height: 70px;
 }
@@ -164,12 +170,6 @@ ul {
 
 ul a {
   text-decoration: none;
-}
-
-.language-container ul li {
-  border: 1px solid #091e42;
-  padding: 7px;
-  margin: 8px;
 }
 
 .language-container ul li:hover {
@@ -408,7 +408,6 @@ ul a {
   display: block;
   justify-content: center;
   align-items: center;
- 
 }
 
 .header-languages {
