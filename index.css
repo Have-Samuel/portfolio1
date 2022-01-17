@@ -150,6 +150,11 @@ ul {
   color: #091e42;
 }
 
+.language-container{
+  width: 400px;
+  height: 70px;
+}
+
 .language-container ul {
   margin: 12px 14px 12px 12px;
   padding: 5px;
