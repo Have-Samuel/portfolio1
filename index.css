@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Montserrat:wght@500&family=Poppins:wght@200&family=Roboto:wght@700&display=swap");
 
 body {
-  margin:  auto;
+  margin: auto;
   width: 100%;
 }
 
@@ -756,12 +756,17 @@ ul a {
     margin-right: 30px;
   }
 
+  .logo {
+    animation-duration: 2s;
+    animation-name: rotate;
+  }
+
   nav .logo {
     margin-left: 80px;
   }
 
   .navbar li {
-   margin-left: 10px;
+    margin-left: 10px;
   }
 
   .aboutme-Languages li {
@@ -783,13 +788,13 @@ ul a {
     margin-right: 32px;
   }
 
-  .navbar ul li:hover {
-    text-decoration: 2px underline #87ceeb;
+  .section1 ul li {
+    margin-left: 36px;
+    padding: 8px;
   }
 
-  .logo {
-    animation-duration: 2s;
-    animation-name: rotate;
+  .navbar ul li:hover {
+    text-decoration: 2px underline #87ceeb;
   }
 
   @keyframes rotate {
@@ -809,11 +814,6 @@ ul a {
 
   .placeholder:hover {
     transform: scale(1.03);
-  }
-
-  .section1 ul li {
-    margin-left: 36px;
-    padding: 8px;
   }
 
   .hamburger-button {
