@@ -1142,10 +1142,10 @@ ul a {
   }
 
   .contact-section_form form {
-    width: 150%;
+    width: 100%;
     margin-top: 10%;
     margin-right: 10%;
-    margin-left: 3%;
+    margin-left: 5%;
   }
 
   .contact-section_form textarea {
