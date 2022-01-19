@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Montserrat:wght@500&family=Poppins:wght@200&family=Quicksand:wght@700&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Montserrat:wght@500&family=Poppins:wght@200&family=Roboto:wght@700&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: auto;
   width: 100%;
+  overflow-x: hidden;
 }
 
 ul {
@@ -39,7 +43,7 @@ ul {
   color: #fff;
   font-size: 40px;
   cursor: pointer;
-  margin-right: 30px;
+  margin-right: 10%;
 }
 
 .section1 {
@@ -136,7 +140,7 @@ ul {
 }
 
 .placeholder {
-  width: 86%;
+  width: 100%;
   padding: 56px 24px 0 24px;
 }
 
@@ -150,7 +154,6 @@ ul {
 }
 
 .section2-paragraph {
-  width: 327px;
   font-family: "Inter", sans-serif;
   line-height: 24px;
   padding: 0 24px 12px 24px;
@@ -158,7 +161,7 @@ ul {
 }
 
 .language-container {
-  width: 400px;
+  width: 60%;
   height: 70px;
 }
 
@@ -198,14 +201,6 @@ ul a {
   width: 100%;
 }
 
-/* .empty-card {
-  display: none;
-} */
-
-/* #one {
-  display: none;
-} */
-
 .see__project {
   background-color: #ff6b00;
   color: #fff;
@@ -214,7 +209,6 @@ ul a {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   cursor: pointer;
-  width: 137px;
   margin-left: 26px;
   text-decoration: none;
   align-items: center;
@@ -381,16 +375,6 @@ ul a {
   font-weight: 700;
   border: none;
 }
-
-/* .aboutme-button {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-  padding: 12px;
-  background: rgba(255, 107, 0, 1);
-  color: #fff;
-  margin: 0 190px 209px 24px;
-} */
 
 .aboutme-section button:hover {
   border: 2px solid #e4752b;
@@ -694,7 +678,7 @@ ul a {
   justify-content: center;
   align-items: center;
   padding: 12px;
-  width: 81%;
+  width: 86%;
 }
 
 .contact-button {
@@ -744,6 +728,7 @@ ul a {
   body {
     width: 100%;
     margin: 0 auto;
+    /* overflow-x: hidden; */
   }
 
   .navbar {
@@ -933,9 +918,8 @@ ul a {
   .section2-paragraph {
     font-family: "Inter", sans-serif;
     line-height: 24px;
-    margin: 0;
     color: #091e42;
-    width: 90%;
+    width: 107%;
   }
 
   .section2-wordings .language-container {
@@ -970,6 +954,11 @@ ul a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    height: 400px;
+  }
+
+  #empty-card_content {
+    display: none;
   }
 
   .section-cards .section3__project {
@@ -977,7 +966,7 @@ ul a {
   }
 
   .section3 {
-    width: 27%;
+    width: 26%;
   }
 
   .section3 > h4 {
@@ -1149,7 +1138,7 @@ ul a {
     margin-right: 0;
     margin-top: 15%;
     text-align: left;
-    margin-left: 3%;
+    margin-left: 8%;
   }
 
   .contact-section_form form {
@@ -1159,9 +1148,18 @@ ul a {
     margin-left: 3%;
   }
 
+  .contact-section_form textarea {
+    width: 100%;
+  }
+
   .new-lining {
-    width: 85%;
-    margin-right: 10%;
+    width: 100%;
+    margin-right: 14%;
+    margin-left: 5%;
+  }
+
+  .ending-lining {
+    display: none;
   }
 
   .contact-section_form .contact-button {
