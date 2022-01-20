@@ -762,6 +762,7 @@ ul a {
   }
 
   .placeholder:hover {
+    transition-duration: 0.5s;
     transform: scale(1.2);
   }
 
