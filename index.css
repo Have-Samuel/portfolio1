@@ -1107,6 +1107,7 @@ ul a {
 
   .language-section {
     display: flex;
+    justify-content: space-evenly;
   }
 
   .aboutme-Languages {
