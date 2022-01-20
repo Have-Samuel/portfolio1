@@ -395,7 +395,7 @@ ul a {
 }
 
 .language-section {
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .aboutme-Languages {
@@ -1108,6 +1108,7 @@ ul a {
   .language-section {
     display: flex;
     justify-content: space-evenly;
+    margin-right: 10%;
   }
 
   .aboutme-Languages {
