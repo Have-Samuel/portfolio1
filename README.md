@@ -16,7 +16,7 @@ This is the screenshot of my page
 - Flexbox and CSS Grid Layout
 ## Live Demo
 
-[Live Demo Link](https://git@github.com:Have-Samuel/portfolio1.git)
+[Live Demo Link](https://have-samuel.github.io/portfolio1/)
 
 
 ## Getting Started
