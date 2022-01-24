@@ -358,7 +358,7 @@ ul a {
   font-family: "Inter", sans-serif;
   line-height: 24px;
   color: rgba(244, 245, 247, 1);
-  margin: 0 24px 24px 24px;
+  margin: 24px 24px 24px 24px;
 }
 
 .aboutme-section button {
