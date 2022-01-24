@@ -350,7 +350,7 @@ ul a {
   line-height: 88px;
   text-align: center;
   color: rgba(255, 107, 0, 1);
-  padding: 120px 24px 24px 24px;
+  padding: 120px 24px 0 24px;
 }
 
 .aboutme-paragraph {
@@ -358,7 +358,7 @@ ul a {
   font-family: "Inter", sans-serif;
   line-height: 24px;
   color: rgba(244, 245, 247, 1);
-  margin: 24px;
+  margin: 0 24px 24px 24px;
 }
 
 .aboutme-section button {
@@ -1061,7 +1061,7 @@ ul a {
   }
 
   .aboutme-header h2 {
-    width: 52%;
+    /* width: 52%; */
     margin-top: 20%;
     margin-bottom: 0;
     padding: 0;
