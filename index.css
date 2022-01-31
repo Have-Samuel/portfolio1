@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@400;800&family=Montserrat:wght@700&family=Poppins:wght@200;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
 
 * {
-  /* margin: 0; */
   padding: 0 ;
 }
 
@@ -129,25 +128,6 @@ body {
   transform: scaleX(1);
 }
 
-/*.navbar {
-  background: #3c3a39;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar-links {
-  display: none;
-}
-
-.hamburger-button {
-  background-color: transparent;
-  border: 0;
-  color: #fff;
-  font-size: 40px;
-  cursor: pointer;
-  margin-right: 30px;
-} */
 
 .section1 {
   background-color: #1c1a19;
@@ -475,16 +455,6 @@ ul a {
   font-weight: 700;
   border: none;
 }
-
-/* .aboutme-button {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-  padding: 12px;
-  background: rgba(255, 107, 0, 1);
-  color: #fff;
-  margin: 0 190px 209px 24px;
-} */
 
 .aboutme-section button:hover {
   border: 2px solid #e4752b;
