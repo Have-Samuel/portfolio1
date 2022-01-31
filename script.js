@@ -11,10 +11,3 @@ list.forEach((element) => {
 menuIcon.addEventListener("click", () => {
   navbar.classList.toggle("change");
 });
-
-// const menuItem = document.querySelector(".nav-link");
-// const navbar = document.querySelector(".navbar");
-
-// menuItem.addEventLister("click", () => {
-//   navbar.classList.toggle("nav-link");
-// });
