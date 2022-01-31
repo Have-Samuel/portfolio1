@@ -11,20 +11,29 @@
 
 <body>
   <header class="header">
-    <nav class="navbar">
+    <div class="container">
       <a class="logo" href="#">My Logo</a>
-      <button type="button" class="hamburger-button">&#8801;</button>
-      <div class="navbar-links">
-        <ul>
-          <li>Portfolio</li>
-          <li>About</li>
-          <li>Contact</li>
+      <nav class="navbar">
+        <div class="hamburger-menu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#section1-nav" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#section2-nav" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact-section_nav" class="nav-link">Contact</a>
+          </li>
         </ul>
-        <button type="button" class="mail">&#9993;</button> 
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
-  <section class="section1">
+  <section class="section1" id="section1-nav">
     <div class="section-info">
       <h1 class="title">Hey There.<br> I'm Samuel</h1>
       <h4 class="sub-title">I'am a software Developer</h4>
@@ -52,7 +61,7 @@
         </li>
       </ul>
   </section>
-  <section class="section2">
+  <section class="section2" id="section2-nav">
     <div class="section2-Head_lining">
       <h2>My Recent Works</h2>
       <hr class="my-recent-works"/>
@@ -217,7 +226,7 @@
         </div>
       </div>
     </section>
-    <section class="contact-section">
+    <section class="contact-section" id="contact-section_nav">
       <div class="contact-section_form">
         <p>
           I'm always interested in hearing about new projects, so if you'd
