@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@400;800&family=Montserrat:wght@700&family=Poppins:wght@200;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
 
 * {
-  padding: 0 ;
+  padding: 0;
 }
 
 body {
@@ -41,7 +41,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 70% 0 0 90%;
-  transition: right 0.8s cubic-bezier(1, 0, 0, 1)
+  transition: right 0.8s cubic-bezier(1, 0, 0, 1);
 }
 
 .change {
