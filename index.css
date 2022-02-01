@@ -849,44 +849,44 @@ ul a {
     padding-left: 8rem;
   }
 
-.desktop-nav-container {
-	display: flex;
-	flex-direction: row;
-	background-color: #3c3a39;
-	width: 100%;
-	justify-content: space-between;
-}
+  .desktop-nav-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #3c3a39;
+    width: 100%;
+    justify-content: space-between;
+  }
 
-.title {
-  padding: 120px 24px 12px 24px;
-}
+  .title {
+    padding: 120px 24px 12px 24px;
+  }
 
-.desktop-nav {
-	color: white;
-	display: flex;
-	align-items: center;
-	padding-right: 10%;
-  display: flex;
-}
+  .desktop-nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+    display: flex;
+  }
 
-.desktop-nav-items {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+  .desktop-nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-.desktop-nav-li {
-	padding-right: 3rem !important;
-}
+  .desktop-nav-li {
+    padding-right: 3rem !important;
+  }
 
-.desktop-nav-link {
-  text-decoration:none !important;
-  color: white;
-  font-family: "Inter", sans-serif; ;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-}
+  .desktop-nav-link {
+    text-decoration:none !important;
+    color: white;
+    font-family: "Inter", sans-serif; ;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
 
   nav .logo {
     margin-left: 80px;
