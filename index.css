@@ -866,7 +866,6 @@ ul a {
     display: flex;
     align-items: center;
     padding-right: 10%;
-    display: flex;
   }
 
   .desktop-nav-items {
@@ -880,9 +879,9 @@ ul a {
   }
 
   .desktop-nav-link {
-    text-decoration:none !important;
+    text-decoration: none !important;
     color: white;
-    font-family: "Inter", sans-serif; ;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
