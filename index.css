@@ -23,27 +23,36 @@ body {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   position: fixed;
-  top: -8px;
+  top: 0;
+  background-color: #3c3a39;
+  width: 100%;
+  height: 10vh;
 }
 
 .container {
-  width: 100%;
+  position: fixed;
+  width: 100vw;
   height: 10vh;
-  background-color: #3c3a39;
   display: flex;
+  z-index: 100;
 }
 
 .navbar {
-  width: 150px;
-  height: 100%;
-  background-color: #684f4f;
+  width:100%;
+  font-family: 'inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 100vh;
+  background-color: #3c3a39;
   position: fixed;
   top: 0;
-  right: -300px;
+  right: -100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 70% 0 0 90%;
+  flex-direction: column;
   transition: right 0.8s cubic-bezier(1, 0, 0, 1);
 }
 
@@ -55,7 +64,7 @@ body {
   width: 35px;
   height: 25px;
   position: fixed;
-  top: 20px;
+  top: 30px;
   right: 50px;
   cursor: pointer;
   display: flex;
@@ -68,15 +77,6 @@ body {
   height: 3px;
   background-color: #fff;
   transition: all 0.8s;
-}
-
-.hamburger-button {
-  background-color: transparent;
-  border: 0;
-  color: #fff;
-  font-size: 40px;
-  cursor: pointer;
-  margin-right: 10%;
 }
 
  ul {
@@ -96,21 +96,22 @@ body {
 }
 
 .nav-list {
-  text-align: right;
-  margin-right: 17%;
+  margin-top: 100px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column; 
 }
 
 .nav-item {
-  margin: 30px;
+  margin: 20px;
 }
 
 .nav-link {
-  font-size: 20px;
-  font-weight: 300;
-  color: #eee;
-  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff5e1;
   position: relative;
-  padding: 2px 0;
+  
 }
 
 .nav-link::before,
@@ -480,7 +481,7 @@ ul a {
   height: 0;
   width: 80%;
   margin: auto;
-  border: 1px solid #a3a0a0;
+  border: 1px thin #928c8c;
 }
 
 .vector-line:hover {
@@ -817,6 +818,13 @@ ul a {
 .aboutme-header img {
   display: none;
 }
+
+@media only screen and (min-width: 576px) {
+  .navbar {
+    display: none;
+  }
+}
+  
 
 @media only screen and (min-width: 992px) {
   body {
