@@ -38,13 +38,12 @@ body {
 }
 
 .navbar {
-  width:100%;
+  width: 100%;
   font-family: 'inter', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
   text-align: left;
   height: 100vh;
   background-color: #3c3a39;
@@ -79,7 +78,7 @@ body {
   transition: all 0.8s;
 }
 
- ul {
+ul {
   list-style: none;
 }
 
@@ -99,7 +98,7 @@ body {
   margin-top: 100px;
   margin-left: 20px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .nav-item {
@@ -111,7 +110,6 @@ body {
   font-weight: 600;
   color: #fff5e1;
   position: relative;
-  
 }
 
 .nav-link::before,
@@ -825,7 +823,6 @@ ul a {
   }
 }
   
-
 @media only screen and (min-width: 992px) {
   body {
     width: 100%;
