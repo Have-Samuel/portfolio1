@@ -822,12 +822,6 @@ ul a {
   display: none;
 }
 
-/* @media only screen and (min-width: 576px) {
-  .navbar {
-    display: none;
-  }
-} */
-
 @media only screen and (min-width: 992px) {
   body {
     width: 100%;
@@ -835,7 +829,6 @@ ul a {
   }
 
   .navbar {
-    display: flex;
     padding: 0 30px;
     display: none;
   }
