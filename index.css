@@ -479,7 +479,7 @@ ul a {
   height: 0;
   width: 80%;
   margin: auto;
-  border: 1px thin #928c8c;
+  border: 1px solid #928c8c;
 }
 
 .vector-line:hover {
@@ -822,7 +822,7 @@ ul a {
     display: none;
   }
 }
-  
+
 @media only screen and (min-width: 992px) {
   body {
     width: 100%;
