@@ -15,78 +15,68 @@ menuIcon.addEventListener("click", () => {
 
 
 const allProjects = document.querySelector('.project');
-
+const popup = document.querySelector(".popup-project"); 
 
 const projects = [
   {
     projectId: 'projectOne',
-    name: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and '
-      + 'typesetting industry. Lorem Ipsum has been the industry\'s '
-      + 'standard dummy text ever since the 1500s, when an unknown printer '
-      + 'took a galley of type and scrambled it to make a type specimen book. '
-      + 'It has survived not only five centuries, but also the leap into electronic '
-      + 'typesetting, remaining essent',
+    name: 'Proffesional Art Printing Data',
+    description: 'A daily selection of privately personalized reads; no accounts or '
+      + 'sign-ups required. has been the industry\'s standard',
     featuredImage: 'images/Background.png',
-    technologies: ['html', 'css', 'javascript'],
-    liveLink: 'https://olawale-o.github.io/portfolio-mobile-version/',
-    sourceLink: 'https://github.com/olawale-o/portfolio-mobile-version',
+    technologies: ['html', 'Bootstrap', 'Ruby'],
+    liveLink: 'https://have-samuel.github.io/portfolio1/',
+    sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
   },
   {
     projectId: 'projectTwo',
-    name: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and '
-      + 'typesetting industry. Lorem Ipsum has been the industry\'s '
-      + 'standard dummy text ever since the 1500s, when an unknown printer '
-      + 'took a galley of type and scrambled it to make a type specimen book. '
-      + 'It has survived not only five centuries, but also the leap into electronic '
-      + 'typesetting, remaining essent',
+    name: 'Proffesional Art Printing Data',
+    description: 'A daily selection of privately personalized reads; no accounts or'
+      + 'sign-ups required. has been the industry\'s standard ',
     featuredImage: 'images/Background.png',
-    technologies: ['html', 'css', 'javascript'],
-    liveLink: 'https://olawale-o.github.io/portfolio-mobile-version/',
-    sourceLink: 'https://github.com/olawale-o/portfolio-mobile-version',
+    technologies: ['html', 'Bootstrap', 'Ruby'],
+    liveLink: 'https://have-samuel.github.io/portfolio1/',
+    sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
   },
   {
     projectId: 'projectThree',
-    name: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and '
-      + 'typesetting industry. Lorem Ipsum has been the industry\'s '
-      + 'standard dummy text ever since the 1500s, when an unknown printer '
-      + 'took a galley of type and scrambled it to make a type specimen book. '
-      + 'It has survived not only five centuries, but also the leap into electronic '
-      + 'typesetting, remaining essent',
+    name: 'Proffesional Art Printing Data',
+    description: 'A daily selection of privately personalized reads; no accounts or '
+      + 'sign-ups required. has been the industry\'s standard  ',
     featuredImage: 'images/Background.png',
-    technologies: ['html', 'css', 'javascript'],
-    liveLink: 'https://olawale-o.github.io/portfolio-mobile-version/',
-    sourceLink: 'https://github.com/olawale-o/portfolio-mobile-version',
+    technologies: ['html', 'Bootstrap', 'Ruby'],
+    liveLink: 'https://have-samuel.github.io/portfolio1/',
+    sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
   },
   {
     projectId: 'projectFour',
-    name: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and '
-      + 'typesetting industry. Lorem Ipsum has been the industry\'s '
-      + 'standard dummy text ever since the 1500s, when an unknown printer '
-      + 'took a galley of type and scrambled it to make a type specimen book. '
-      + 'It has survived not only five centuries, but also the leap into electronic '
-      + 'typesetting, remaining essent',
+    name: 'Proffesional Art Printing Data',
+    description: 'A daily selection of privately personalized reads; no accounts or'
+      + 'sign-ups required. has been the industry\'s standard ',
     featuredImage: 'images/Background.png',
-    technologies: ['html', 'css', 'javascript'],
-    liveLink: 'https://olawale-o.github.io/portfolio-mobile-version/',
-    sourceLink: 'https://github.com/olawale-o/portfolio-mobile-version',
+    technologies: ['html', 'Bootstrap', 'Ruby'],
+    liveLink: 'https://have-samuel.github.io/portfolio1/',
+    sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
   },
   {
     projectId: 'projectFive',
-    name: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and '
-      + 'typesetting industry. Lorem Ipsum has been the industry\'s '
-      + 'standard dummy text ever since the 1500s, when an unknown printer '
-      + 'took a galley of type and scrambled it to make a type specimen book. '
-      + 'It has survived not only five centuries, but also the leap into electronic '
-      + 'typesetting, remaining essent',
+    name: 'Proffesional Art Printing Data',
+    description: 'A daily selection of privately personalized reads; no accounts or '
+      + 'sign-ups required. has been the industry\'s standard',
     featuredImage: 'images/Background.png',
-    technologies: ['html', 'css', 'javascript'],
+    technologies: ['html', 'Bootstrap', 'Ruby'],
     liveLink: 'https://olawale-o.github.io/portfolio-mobile-version/',
-    sourceLink: 'https://github.com/olawale-o/portfolio-mobile-version',
+    sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
+  },
+  {
+    projectId: 'projectFive',
+    name: 'Proffesional Art Printing Data',
+    description: 'A daily selection of privately personalized reads; no accounts or '
+      + 'sign-ups required. has been the industry\'s standard',
+    featuredImage: 'images/Background.png',
+    technologies: ['html', 'Bootstrap', 'Ruby'],
+    liveLink: 'https://olawale-o.github.io/portfolio-mobile-version/',
+    sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
   },
 ]
 
@@ -123,6 +113,8 @@ return techItem;
       function model(project) {
         const popupProject = `
         <section class="post-section">
+        <div class="toggleX">x</div>
+        
     <div class="post-container">
     <img class="image sm" src="${project.featuredImage}" alt="portfolio" />
     </div>
@@ -138,20 +130,17 @@ return techItem;
     </div>
     </div>
     </section>`
+    popup.innerHTML = popupProject;
       }
 
-      for (let i = 0; i < projects.length; i += 1) {
-        const project = document.querySelector(`#${projects[i].projectId}`);
-        project.addEventListener('click', () => {
-        model(projects[i]);
-        }); 
-      } 
+    for (let i = 0; i < projects.length; i += 1) {
+      const project = document.querySelector(`#${projects[i].projectId}`);
+      project.addEventListener('click', () => {
+      model(projects[i]);
+      }); 
+    } 
 
-
-
-
-
-
-
-
-
+    toggleX.addEventListener('click', () => { 
+      model();
+    }
+    

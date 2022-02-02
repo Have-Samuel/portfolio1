@@ -95,12 +95,6 @@
   padding: 10px 2px;
 }
 
-.popup-bottonx img {
-  /* width: 70%; */
- 
-  /* margin-left: 30px; */
-}
-
 .popup_image {
   width: 18px;
   height: 18px;
@@ -120,7 +114,7 @@
 
 .popup1-btn {
   color: #eee;
-  padding: 8px 6px;
+  /* padding: 8px 6px; */
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -141,7 +135,9 @@
   text-decoration: none;
 }
 
-
+.title-color {
+  color: green;
+}
 
 
 
