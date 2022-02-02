@@ -102,8 +102,9 @@ const projects = [
     </section>
     </li>
     `;
-return techItem;
-    } 
+    return techItem;
+  } 
+
     for (let i = 0; i < projects.length; i += 1) {
       const project = createProject(projects[i]);
       allProjects.innerHTML += project;
@@ -118,7 +119,7 @@ return techItem;
     <div class="post-container">
     <img class="image sm" src="${project.featuredImage}" alt="portfolio" />
     </div>
-    <h4 class="title">${project.name}</h4>
+    <h4 class="title-color">${project.name}</h4>
     <ul class="skills">
     </ul>
     <p class="text">
