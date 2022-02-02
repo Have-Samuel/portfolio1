@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@400;800&family=Montserrat:wght@700&family=Poppins:wght@200;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@400;800&family=Montserrat:wght@700&family=Poppins:wght@200;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@400;800&family=Montserrat:wght@700&family=Poppins:wght@200;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
+
+
+/* .popup-section {
+
+} */
+
+.multi-stories {
+  display: flex;
+  justify-content: space-around;
+}
+
+.multi-stories .close-btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 3rem;
+  color: #808080;
+}
+
+.popup-section h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: #172b4d;
+}
+
+.popup-lanuguages {
+  width: 83%;
+  height: 70px;
+  margin-left: 24px;
+}
+
+.popup-items {
+  display: flex;
+  color: #091e42;
+  justify-content: space-between;
+}
+
+.popup-items li{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.popup-items li:hover {
+  background: #f4f1f0;
+  text-decoration: underline #87ceeb;
+  border: 1px solid #87ceeb;
+}
+
+.popup-section img {
+  width: 100%;
+  padding: 0 24px;
+}
+
+.popup-section p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #344563;
+  letter-spacing: 0em;
+  width: 100%;
+  padding: 28px;
+}
+
+.popup-bottonx {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  background-color: #ff7300;
+  padding: 10px;
+}
+
+.popup-bottonx a {
+  height: 24px;
+width: 74px;
+left: 12px;
+top: 12px;
+border-radius: nullpx;
+
+}
+
+.popup-bottonx img {
+  width: 50%;
+}
+
+
+
+
+
+
+
+
