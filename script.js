@@ -143,5 +143,5 @@ const projects = [
 
     toggleX.addEventListener('click', () => { 
       model();
-    }
+    });
     

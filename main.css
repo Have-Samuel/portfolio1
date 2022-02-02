@@ -90,7 +90,6 @@
   display: flex;
   flex-direction: row;
   width: 50%;
-  height: 48px;
   background-color: #ff7300;
   padding: 10px 2px;
 }
@@ -102,7 +101,6 @@
 
 .popup-bottony {
   width: 50%;
-  height: 48px;
   background-color: #ff7300;
   padding: 24px 2px;
   margin: 10px; 
@@ -114,7 +112,7 @@
 
 .popup1-btn {
   color: #eee;
-  /* padding: 8px 6px; */
+  padding: 8px 6px;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -130,7 +128,6 @@
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 700;
-  margin-right: 4px;
   cursor: pointer;
   text-decoration: none;
 }
