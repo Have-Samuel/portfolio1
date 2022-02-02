@@ -82,23 +82,33 @@
 .pop-buttons {
   width: 100%;
   display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
 }
 
 .popup-bottonx {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 50%;
+  height: 48px;
   background-color: #ff7300;
   padding: 10px 2px;
 }
 
 .popup-bottonx img {
-  width: 70%;
-  margin-left: 30px;
+  /* width: 70%; */
+ 
+  /* margin-left: 30px; */
+}
+
+.popup_image {
+  width: 18px;
+  height: 18px;
 }
 
 .popup-bottony {
-  width: 100%;
+  width: 50%;
+  height: 48px;
   background-color: #ff7300;
   padding: 24px 2px;
   margin: 10px; 
@@ -112,10 +122,12 @@
   color: #eee;
   padding: 8px 6px;
   font-family: 'Inter', sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 700;
+  line-height: 24px;
   text-align: center;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .popup2-btn {
@@ -126,6 +138,7 @@
   font-weight: 700;
   margin-right: 4px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 
