@@ -103,18 +103,13 @@
         </ul>
       </div>
           <img src="popup-images/Snapshoot Portfolio.png" alt="golden image">
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
-          <div class="pop-buttons">
-            <div class="popup-bottonx">
-              <a href="#" class="popup1-btn">See Live</a>
-              <img src="popup-images/popup-Icon1.png" class="popup_image" alt="images">
-            </div>
-            <div class="popup-bottony">
-              <a href="#" class="popup2-btn">See Source <i class="fab fa-github"></i></a>
-            </div>
-          </div>
-    </section>
 
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+          <div class="button-popup-container"> 
+             <button class="popup-bottonx">See Live<span class="space"><img class="img-popup" src="popup-images/seem.png" alt=""></span></button>
+             <button class="popup-bottonx">See Source<span class="space"><img class="img-popup" src="popup-images/Github.png" alt=""></span></button> 
+          </div> 
+    </section>
     <section class="section2" id="section2-nav">
       <div class="section2-Head_lining">
         <h2>My Recent Works</h2>
@@ -310,35 +305,17 @@
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.
           </p>
-          <form action="https://formspree.io/f/xrgjezpe" method="post">
+          <form action="https://formspree.io/f/xrgjezpe" id="signup" method="post">
             <input
-              class="input-contact second-names"
-              type="text"
-              name="full_name"
-              placeholder="Full name"
-              maxlength="30"
-              required
-            />
+              class="input-contact second-names" type="text" name="full_name" placeholder="Full name" maxlength="30" required />
             <hr class="new-lining" />
             <input
-              class="input-contact"
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email address"
-              required
-            />
-            <br />
-            <hr class="new-lining" />
-            <textarea
-              name="comments"
-              id="comments"
-              cols="40"
-              rows="10"
-              maxlength="500"
-              placeholder="Enter text here"
-              required
-            ></textarea>
+              class="input-contact" type="email" name="email" id="email" placeholder="Email address" required pattern="[ee]mail"/>
+              <small></small>
+              <br />
+            <hr class="new-lining" /> 
+            <textarea name="comments" id="comments" cols="40" rows="10" maxlength="500" placeholder="Enter text here" required>
+            </textarea>
             <input type="button" class="contact-button" value="Get in touch" />
           </form>
         </div>

@@ -65,7 +65,7 @@ const projects = [
       + 'sign-ups required. has been the industry\'s standard',
     featuredImage: 'images/Background.png',
     technologies: ['html', 'Bootstrap', 'Ruby'],
-    liveLink: 'https://olawale-o.github.io/portfolio-mobile-version/',
+    liveLink: 'https://have-samuel.github.io/portfolio1/',
     sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
   },
   {
@@ -75,7 +75,7 @@ const projects = [
       + 'sign-ups required. has been the industry\'s standard',
     featuredImage: 'images/Background.png',
     technologies: ['html', 'Bootstrap', 'Ruby'],
-    liveLink: 'https://olawale-o.github.io/portfolio-mobile-version/',
+    liveLink: 'https://have-samuel.github.io/portfolio1/',
     sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
   },
 ]
@@ -145,3 +145,12 @@ const projects = [
       model('');
     });
     
+    // const togglex = document.querySelector('.toggleX')
+    // togglex.addEventListener('click', () => {
+    //   model('');
+    // });
+
+  
+
+
+
