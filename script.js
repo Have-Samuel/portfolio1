@@ -115,7 +115,6 @@ const projects = [
         const popupProject = `
         <section class="post-section">
         <div class="toggleX">x</div>
-        
     <div class="post-container">
     <img class="image sm" src="${project.featuredImage}" alt="portfolio" />
     </div>
@@ -141,7 +140,8 @@ const projects = [
       }); 
     } 
 
-    toggleX.addEventListener('click', () => { 
-      model();
+    const togglex = document.querySelector('.toggleX')
+    togglex.addEventListener('click', () => { 
+      model('');
     });
     
