@@ -20,7 +20,7 @@ const popup = document.querySelector(".popup-project");
 const projects = [
   {
     projectId: 'projectOne',
-    name: 'Proffesional Art Printing Data',
+    name: 'Printing Data One',
     description: 'A daily selection of privately personalized reads; no accounts or '
       + 'sign-ups required. has been the industry\'s standard',
     featuredImage: 'images/Background.png',
@@ -30,7 +30,7 @@ const projects = [
   },
   {
     projectId: 'projectTwo',
-    name: 'Proffesional Art Printing Data',
+    name: 'Printing Data Two',
     description: 'A daily selection of privately personalized reads; no accounts or'
       + 'sign-ups required. has been the industry\'s standard ',
     featuredImage: 'images/Background.png',
@@ -40,7 +40,7 @@ const projects = [
   },
   {
     projectId: 'projectThree',
-    name: 'Proffesional Art Printing Data',
+    name: 'Printing Data Three',
     description: 'A daily selection of privately personalized reads; no accounts or '
       + 'sign-ups required. has been the industry\'s standard  ',
     featuredImage: 'images/Background.png',
@@ -50,7 +50,7 @@ const projects = [
   },
   {
     projectId: 'projectFour',
-    name: 'Proffesional Art Printing Data',
+    name: 'Printing Data Four',
     description: 'A daily selection of privately personalized reads; no accounts or'
       + 'sign-ups required. has been the industry\'s standard ',
     featuredImage: 'images/Background.png',
@@ -60,7 +60,7 @@ const projects = [
   },
   {
     projectId: 'projectFive',
-    name: 'Proffesional Art Printing Data',
+    name: 'Printing Data Five',
     description: 'A daily selection of privately personalized reads; no accounts or '
       + 'sign-ups required. has been the industry\'s standard',
     featuredImage: 'images/Background.png',
@@ -70,7 +70,7 @@ const projects = [
   },
   {
     projectId: 'projectFive',
-    name: 'Proffesional Art Printing Data',
+    name: 'Printing Data Six',
     description: 'A daily selection of privately personalized reads; no accounts or '
       + 'sign-ups required. has been the industry\'s standard',
     featuredImage: 'images/Background.png',
