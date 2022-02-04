@@ -83,21 +83,21 @@ const projects = [
   function createProject(project) {
     const techItem = `
     <li>
-    <section class="post-section">
-    <div class="post-container">
-    <img class="image sm" src="${project.featuredImage}" alt="portfolio" />
+    <section class="section3 section-cards empty-card">
+    <div id="post-container">
+    <img class="image" src="${project.featuredImage}" alt="portfolio"/>
     </div>
-    <h4 class="title">${project.name}</h4>
+    <div class="section-paragraph">
+    <h4 class=" section3-heading">${project.name}</h4>
     <ul class="skills">
     </ul>
-    <p class="text">
+    <p class="section3-paragraph">
     ${project.description}
     </p>
-    <ul class="tags" id="tags">
-    ${project.technologies.map((tech) => `<li class="tag">${tech}</li>`).join('')}
+    <ul class="section3-items ">
+    ${project.technologies.map((tech) => `<li class="section3-item1 section3-item2 section3-item3">${tech}</li>`).join('')}
     </ul>
-    <button class="btn-project" id="${project.projectId}">See Project</button>
-    </div>
+    <button class="section3__project" id="${project.projectId}">See Project</button>
     </div>
     </section>
     </li>
@@ -111,10 +111,10 @@ const projects = [
       } 
 
 
-      function model(project) {
-        const popupProject = `
-        <section class="post-section">
-        <div class="toggleX">x</div>
+  function model(project) {
+    const popupProject = `
+    <section class="post-section">
+    <div class="toggleX">x</div>
     <div class="post-container">
     <img class="image sm" src="${project.featuredImage}" alt="portfolio" />
     </div>
@@ -131,7 +131,7 @@ const projects = [
     </div>
     </section>`
     popup.innerHTML = popupProject;
-      }
+  }
 
     for (let i = 0; i < projects.length; i += 1) {
       const project = document.querySelector(`#${projects[i].projectId}`);
@@ -144,13 +144,13 @@ const projects = [
     togglex.addEventListener('click', () => { 
       model('');
     });
-    
+
     // const togglex = document.querySelector('.toggleX')
     // togglex.addEventListener('click', () => {
     //   model('');
     // });
 
-  
+
 
 
 

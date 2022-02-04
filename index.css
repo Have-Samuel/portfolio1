@@ -50,7 +50,7 @@ body {
   background-color: #3c3a39;
   position: fixed;
   top: 0;
-  right: -100vh;
+  right: -200vh;
   display: flex;
   flex-direction: column;
   transition: right 0.8s cubic-bezier(1, 0, 0, 1);
@@ -318,13 +318,22 @@ ul a {
 
 .section3 {
   margin: 24px;
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(165, 163, 163, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(images/Background.png);
+  position: relative;
+}
+
+.popup-section .second-P {
+  display: none;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-paragraph {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .section3-heading {
@@ -348,7 +357,7 @@ ul a {
   align-items: center;
   list-style: none;
   justify-content: space-evenly;
-  padding: 0 75px 22px 4px;
+  padding: 0 110px 22px 4px;
 }
 
 .section3-item1 {
@@ -1066,19 +1075,33 @@ ul a {
     color: #fff;
   }
 
-  .section-cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  .popup-section h2 {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .popup-items {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-    margin-left: 40px;
+  }
+
+  .section-paragraph {
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
   .empty-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 400px;
+    height: 347px;
   }
 
   #empty-card_content {
@@ -1087,10 +1110,6 @@ ul a {
 
   .section-cards .section3__project {
     display: none;
-  }
-
-  .section3 {
-    width: 26%;
   }
 
   .section3 > h4 {
@@ -1133,8 +1152,8 @@ ul a {
   }
 
   .section3-items {
-    padding-right: 8%;
-    padding-bottom: 1%;
+    padding-right: 4%;
+    margin-left: -18px;
   }
 
   .section3__project1 {
@@ -1303,3 +1322,4 @@ ul a {
     margin-right: 66%;
   }
 }
+
