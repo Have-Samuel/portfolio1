@@ -293,7 +293,7 @@ ul a {
   text-decoration: none;
   margin: 0 -24px -24px 0;
   width: 100%;
-  margin-top: 90px;
+  /* margin-top: 90px; */
 }
 
 .see__project {
@@ -309,7 +309,6 @@ ul a {
   align-items: center;
   text-align: center;
   font-weight: 700;
-  
 }
 
 .see__project:hover {
@@ -359,7 +358,7 @@ ul a {
   align-items: center;
   list-style: none;
   justify-content: space-evenly;
-  padding: 0 110px 22px 4px;
+  padding: 0 76px 22px 4px;
 }
 
 .section3-item1 {
@@ -367,9 +366,11 @@ ul a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0 solid #f0f2f5;
   padding: 8px;
   color: white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .section3-item1:hover {
@@ -975,7 +976,7 @@ ul a {
   }
 
   .popup-paraimg p {
-    width: 50%;
+    width: 40%;
     margin-top: 0rem;
   }
 
@@ -1118,10 +1119,10 @@ ul a {
 
   .project {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
     width: 100%;
-    grid-row-gap: 130px;
-    margin-top: 140px;
+    /* grid-row-gap: 0; */
+    /* margin-top: 100px; */
   }
 
   .section-paragraph {
@@ -1134,7 +1135,7 @@ ul a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 347px;
+    min-height: 379px;
   }
 
   #empty-card_content {
@@ -1185,8 +1186,8 @@ ul a {
   }
 
   .section3-items {
-    padding-right: 4%;
-    margin-left: -18px;
+    padding-right: 10%;
+    margin-top: 5%;
   }
 
   .section3__project1 {
