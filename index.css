@@ -937,6 +937,49 @@ ul a {
   .hamburger-button {
     display: none;
   }
+  
+  .popup-modal {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popup-section h2 {
+    padding-top: 15px;
+    font-size: 2.8rem;
+    padding-bottom: 0;
+    width: 90%;
+  }
+
+  i {
+    margin-right: 20px;
+  }
+
+  .popup-lanuguages {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popup-items {
+    width: 40%;
+    margin-top: 0;
+  }
+
+  .popup-paraimg {
+    display: flex;
+  }
+
+  .popup-paraimg .popup-image {
+    width: 60%;
+  }
+
+  .popup-paraimg p {
+    width: 50%;
+    margin-top: 0rem;
+  }
+
+  .modal-btn {
+
+  }
 
   .section1 {
     display: flex;
@@ -1075,15 +1118,15 @@ ul a {
     color: #fff;
   }
 
-  .popup-section h2 {
+  /* .popup-section h2 {
     margin: 0 auto;
     width: auto;
-  }
+  } */
 
-  .popup-items {
+  /* .popup-items {
     width: auto;
     margin: 0 auto;
-  }
+  } */
 
   .project {
     display: grid;
