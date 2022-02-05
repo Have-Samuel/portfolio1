@@ -70,35 +70,7 @@ const arrClassName = ['project1', 'project2','project3', 'project4', 'project5',
     
  
 function model(name) {
-  //   const popupProject = `
-  //  <section class="popup-section">
-  //   <div class="popup-modal">
-  //     <div class="multi-stories">
-  //       <h2>Multi Post Stories</h2>
-           
-  //     </div>
-
-  //     <div class="popup-lanuguages">
-  //       <ul class="popup-items">
-  //         <li class="popup-item">html</li>
-  //         <li class="popup-item">Bootstrap</li>
-  //         <li class="popup-item">Ruby on Rails</li>
-  //       </ul>
-  //     </div>
-  //     <div class="popup-paraimg">
-  //         <img class="popup-image" src="popup-images/Snapshoot Portfolio.png" alt="golden image">
-  //         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
-  //     </div>
-  //         <ul class="modal-btn">
-  //           <li>
-  //             <button class="project-button" type="button">See Live<img id="img-icons" class="modal-icon"src="popup-images/seem.png" alt="watch live icon"/></button>    
-  //           </li>
-  //           <li>
-  //             <button class="project-button" type="button">See source<img id="img-icons" class="modal-icon" src="popup-images/Github.png"  alt="git hub icon"/></button>
-  //           </li>
-  //         </ul>
-  //     </div>
-  //   </section>`;
+ 
 
   const languages = ['html', 'Bootstrap', 'Ruby on Rails'];
   

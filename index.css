@@ -293,7 +293,6 @@ ul a {
   text-decoration: none;
   margin: 0 -24px -24px 0;
   width: 100%;
-  /* margin-top: 90px; */
 }
 
 .see__project {
@@ -940,7 +939,7 @@ ul a {
   .hamburger-button {
     display: none;
   }
-  
+
   .popup-modal {
     display: flex;
     flex-direction: column;
@@ -977,7 +976,7 @@ ul a {
 
   .popup-paraimg p {
     width: 40%;
-    margin-top: 0rem;
+    margin-top: 0;
   }
 
   .section1 {
@@ -1121,8 +1120,6 @@ ul a {
     display: grid;
     grid-template-columns: auto auto auto;
     width: 100%;
-    /* grid-row-gap: 0; */
-    /* margin-top: 100px; */
   }
 
   .section-paragraph {
@@ -1356,4 +1353,3 @@ ul a {
     margin-right: 66%;
   }
 }
-
