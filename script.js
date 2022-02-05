@@ -36,18 +36,17 @@ const arrClassName = ['project1', 'project2','project3', 'project4', 'project5',
   function createProject(project, name) {
     const techItem = `
     <div class="${name}">
-    <section class="section3 section-cards empty-card  ">
-    <div id="post-container">
-    <img class="image" src="${project.featuredImage}" alt="portfolio"/>
-    </div>
-    <div class="section-paragraph">
-    <h4 class=" section3-heading">${project.name}</h4>
-    <ul class="skills">
-    </ul>
-    <p class="section3-paragraph">
-    ${project.description}
-    </p>
-    <ul class="section3-items ">
+       <section class="section3 section-cards empty-card">
+       <div id="post-container">
+       <img class="image" src="${project.featuredImage}" alt="portfolio"/>
+       </div>
+      <div class="section-paragraph">
+        <h4 class=" section3-heading">${project.name}</h4>
+         <ul class="skills"></ul>
+      <p class="section3-paragraph">
+        ${project.description}
+      </p>
+      <ul class="section3-items ">
     ${project.technologies
       .map(
         (tech) =>
@@ -60,7 +59,7 @@ const arrClassName = ['project1', 'project2','project3', 'project4', 'project5',
     }">See Project</button>
     </div>
     </section>
-    </div>
+   </div>
     `;
     return techItem;
   } 

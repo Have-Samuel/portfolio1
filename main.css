@@ -205,6 +205,18 @@
   height: 600px;
 }
 
+@media(min-width: 992px) { 
+   .popup-section {
+     width: 100%;
+     left: 0;
+     top: 0;
+     margin: 20px;
+     min-height: 100vh;
+     right: 5;
+     overflow: scroll;
+   }
+}
+
 
 
 /* Popup windows
@@ -288,3 +300,5 @@
   border: 1px solid #f55b00;
   color: #f55800;
 } */
+
+

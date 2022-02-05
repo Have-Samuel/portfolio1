@@ -1120,20 +1120,18 @@ ul a {
     color: #fff;
   }
 
-  /* .popup-section h2 {
-    margin: 0 auto;
-    width: auto;
-  } */
-
-  /* .popup-items {
-    width: auto;
-    margin: 0 auto;
-  } */
+  
 
   .project {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
+    grid-row-gap: 130px;
+    margin-top: 140px;
+  }
+
+  .project1 {
+    border: 3px solid red;
   }
 
   .section-paragraph {
