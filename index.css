@@ -293,6 +293,7 @@ ul a {
   text-decoration: none;
   margin: 0 -24px -24px 0;
   width: 100%;
+  margin-top: 90px;
 }
 
 .see__project {
@@ -308,6 +309,7 @@ ul a {
   align-items: center;
   text-align: center;
   font-weight: 700;
+  
 }
 
 .see__project:hover {
