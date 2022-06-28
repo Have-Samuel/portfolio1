@@ -34,7 +34,6 @@ body {
 .container {
   position: fixed;
   width: 100vw;
-  height: 10vh;
   z-index: 100;
 }
 
@@ -833,6 +832,8 @@ ul a {
   display: none;
 }
 
+/* Desktop */
+
 @media only screen and (min-width: 992px) {
   body {
     width: 100%;
@@ -889,6 +890,10 @@ ul a {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
+  }
+
+  .desktop-nav-link:hover {
+    color: #ecb56e;
   }
 
   nav .logo {
@@ -1027,10 +1032,13 @@ ul a {
     border: none;
     color: #fff;
     margin-left: 0;
+    cursor: pointer;
   }
 
   .mail:hover {
-    text-decoration: underline #87ceeb;
+    transform: scale(1.2);
+    transition-duration: 150ms;
+    color: #e4752b;
   }
 
   .section2-Head_lining {
