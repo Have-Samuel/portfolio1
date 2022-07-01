@@ -1,3 +1,5 @@
+/* stylelint-disable no-eol-whitespace */
+/* stylelint-disable block-no-empty */
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Montserrat:wght@500&family=Poppins:wght@200&family=Quicksand:wght@700&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Montserrat:wght@500&family=Poppins:wght@200&family=Roboto:wght@700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@400;600;800&family=Montserrat:wght@700&family=Poppins:wght@200;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
@@ -845,13 +847,17 @@ ul a {
     display: none;
   }
 
+  .hamburger-menu {
+    display: none;
+  }
+
   .navbar-links {
     display: flex;
     margin-right: 30px;
   }
 
   .logo {
-    padding-left: 8rem;
+    padding-left: 12rem;
   }
 
   .desktop-nav-container {
@@ -888,7 +894,7 @@ ul a {
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 20px;
   }
 
@@ -985,14 +991,13 @@ ul a {
   }
 
   .section1 {
+    min-height: 100vh;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    background: url('desktop-images/Illustration-header.png');
-    background-color: #1c1a19;
-    background-position: right top;
-    background-repeat: no-repeat;
+    background: url('desktop-images/Illustration-header.png') rgba(28, 26, 25, 1) no-repeat;
+    background-position: right bottom;
   }
 
   .section-info {
