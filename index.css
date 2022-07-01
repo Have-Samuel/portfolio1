@@ -148,16 +148,19 @@ ul {
   background-image: url("images/Group.png");
   background-repeat: no-repeat;
   background-position: bottom right;
+  min-height: 82vh;
 }
 
 .title {
+  font-family: 'Crete Round', serif;
   font-size: 56px;
+  font-style: normal;
   font-weight: 400;
-  font-family: "Crete Round", serif;
-  margin-bottom: 0;
-  margin-top: 0;
+  line-height: 64px;
+  padding-top: 12rem;
   color: #ff6b00;
-  padding: 200px 24px 0 24px;
+  margin-left: 1.5rem;
+  display: flex;
 }
 
 .sub-title {
