@@ -1,3 +1,4 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
 /* stylelint-disable no-eol-whitespace */
 /* stylelint-disable block-no-empty */
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Montserrat:wght@500&family=Poppins:wght@200&family=Quicksand:wght@700&family=Roboto:wght@700&display=swap");
@@ -857,7 +858,7 @@ ul a {
   }
 
   .logo {
-    padding-left: 12rem;
+    padding-left: 11rem;
   }
 
   .desktop-nav-container {
@@ -903,7 +904,7 @@ ul a {
   }
 
   nav .logo {
-    margin-left: 80px;
+    margin-left: 800px;
   }
 
   .navbar li {
@@ -1002,14 +1003,19 @@ ul a {
 
   .section-info {
     width: 46%;
-    font-family: 'Crete Round', serif;
     margin-right: 44%;
     margin-bottom: 0;
   }
 
   .section1 .title {
-    margin-left: 5%;
+    margin-left: 3%;
     padding: 0;
+    font-family: 'Crete Round', serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0;
+    text-align: left;
   }
 
   .section1 .sub-title {
