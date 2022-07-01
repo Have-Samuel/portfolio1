@@ -5,6 +5,8 @@
 * {
   box-sizing: border-box;
   padding: 0;
+  margin: 0;
+  width: auto;
 }
 
 body {
@@ -159,21 +161,31 @@ ul {
 }
 
 .sub-title {
-  color: #fff;
-  padding: 0 24px;
-  height: 27px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-style: normal;
+  font-weight: 700;
   line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 1.5rem;
+  color: #fff5e1;
+  display: flex;
 }
 
-.paragraph {
-  font-family: "Poppins", sans-serif;
+.section1 .paragraph {
   display: flex;
-  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 1.5rem;
+  margin-right: 2rem;
+  width: 88%;
   color: #fff;
-  padding: 0 24px 12px 24px;
 }
 
 .items {
