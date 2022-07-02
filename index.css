@@ -969,6 +969,7 @@ ul a {
   .section2-placeholder .placeholder {
     width: 60%;
     margin-top: 0;
+    margin-left: 2rem;
   }
 
   .placeholder:hover {
@@ -1110,20 +1111,20 @@ ul a {
 
   .section2-placeholder {
     display: flex;
-    margin-left: 40px;
-    width: 90%;
+
+    width: 135%;
   }
 
   .section2-placeholder .section2-wordings {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    margin-left: -30px;
   }
 
   .project-info {
     display: flex;
     flex-direction: column;
+    margin-left: 0;
   }
 
   .stories {
@@ -1132,18 +1133,18 @@ ul a {
     font-size: 32px;
     font-weight: 400;
     color: #091e42;
-    margin-bottom: 0;
+    margin-bottom: 2rem;
   }
 
   .section2-paragraph {
     font-family: "Inter", sans-serif;
     line-height: 24px;
     color: #091e42;
-    width: 107%;
+    width: 46%;
   }
 
   .section2-wordings .language-container {
-    margin-top: -10px;
+    margin-bottom: 1rem;
   }
 
   .see__project {
@@ -1155,10 +1156,10 @@ ul a {
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.03em;
-    padding: 10px 0;
+    padding: 1rem 0;
     background: #ff6b00;
     border: none;
-    width: 30%;
+    width: 14%;
     color: #fff;
   }
 
@@ -1166,19 +1167,19 @@ ul a {
     display: grid;
     grid-template-columns: auto auto auto;
     width: 100%;
+    padding: 2rem;
   }
 
   .section-paragraph {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0.3rem;
   }
 
   .empty-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    min-height: 379px;
   }
 
   #empty-card_content {
@@ -1191,11 +1192,21 @@ ul a {
 
   .section3 > h4 {
     margin-left: 14px;
+    /* margin-top: 18rem; */
   }
 
-  .section3 > p {
-    margin-left: 14px;
+  .section3-heading {
+    padding-top: 10rem;
   }
+
+  .section3-paragraph {
+    /* margin-top: 5rem; */
+  }
+
+  /* .section3 > p {
+    margin-left: 2rem;
+    margin-bottom: 10rem;
+  } */
 
   #one {
     grid-area: one;
@@ -1228,12 +1239,11 @@ ul a {
     background-image: url('desktop-images/imagecard6.png');
   }
 
-  .section3-items {
-    padding-right: 10%;
-    margin-top: 5%;
+  .section3__project1 {
+    display: none;
   }
 
-  .section3__project1 {
+  /* .section3__project1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1242,7 +1252,6 @@ ul a {
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
-    margin-top: 11rem;
     height: 58px;
     color: #fff;
     cursor: pointer;
@@ -1250,7 +1259,7 @@ ul a {
     background: rgba(255, 107, 0, 1);
     text-decoration: none;
     width: 100%;
-  }
+  } */
 
   .section3__project1:hover {
     text-decoration: underline #87ceeb;
