@@ -527,12 +527,12 @@ ul a {
 
 .header-languages {
   display: flex;
-  margin-left: 68px;
+  margin-left: 58px;
 }
 
-.header-languages img {
+/* .header-languages img {
   margin-top: 29px;
-}
+} */
 
 .diagonal-img {
   height: 40px;
@@ -569,7 +569,7 @@ ul a {
 }
 
 .aboutme-item {
-  padding: 10px 4px;
+  padding: 1rem 0.5rem;
 }
 
 .aboutme-item:hover {
@@ -618,7 +618,7 @@ ul a {
 }
 
 .aboutme-frame-item {
-  padding: 10px 4px;
+  padding: 1rem 0.5rem;
 }
 
 .aboutme-frame-item:hover {
@@ -626,8 +626,11 @@ ul a {
 }
 
 .circle-img {
+  /* height: 30px;
+  margin: 20px; */
   height: 30px;
-  margin: 20px;
+  margin: 8px;
+  margin-left: 4rem;
 }
 
 .circle-img:hover {
@@ -659,7 +662,7 @@ ul a {
 }
 
 .aboutme-skills-item {
-  padding: 10px 4px;
+  padding: 1rem 0.5rem;
 }
 
 .aboutme-skills-item:hover {
