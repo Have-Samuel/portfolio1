@@ -378,12 +378,12 @@ ul a {
 }
 
 .section3-item1 {
-  background: #ffffff7e;
+  /* background: #ffffff7e;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 8px;
-  color: white;
+  color: white; */
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
