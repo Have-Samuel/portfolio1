@@ -288,6 +288,7 @@ ul a {
   background: #f4f1f0;
   text-decoration: underline #87ceeb;
   border: 2px solid #87ceeb;
+  cursor: pointer;
 }
 
 .section3__project1 {
@@ -307,6 +308,7 @@ ul a {
   text-decoration: none;
   margin: 0 -24px -24px 0;
   width: 100%;
+
 }
 
 .see__project {
