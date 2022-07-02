@@ -350,6 +350,7 @@ ul a {
   position: absolute;
   top: 0;
   left: 0;
+  margin-top: 1rem;
 }
 
 .section3-heading {
@@ -373,7 +374,7 @@ ul a {
   align-items: center;
   list-style: none;
   justify-content: space-evenly;
-  padding: 0 76px 22px 4px;
+  padding: 0 5rem 0.8rem 0.1rem;
 }
 
 .section3-item1 {
@@ -394,7 +395,7 @@ ul a {
   border: 2px solid #87ceeb;
 }
 
-.section3-item2 {
+/* .section3-item2 {
   background: #ffffff7e;
   display: flex;
   justify-content: center;
@@ -402,7 +403,7 @@ ul a {
   border: 0 solid #091e42;
   padding: 8px;
   color: #fff;
-}
+} */
 
 .section3-item2:hover {
   background: #ffffff3d;
@@ -417,7 +418,7 @@ ul a {
   border: 0 solid #091e42;
   padding: 8px;
   color: #fff;
-  background: #ffffff7e;
+  background: rgba(255, 255, 255, 0.24);
 }
 
 .section3-item3:hover {
