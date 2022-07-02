@@ -5,6 +5,8 @@
 * {
   box-sizing: border-box;
   padding: 0;
+  margin: 0;
+  width: auto;
 }
 
 body {
@@ -34,7 +36,6 @@ body {
 .container {
   position: fixed;
   width: 100vw;
-  height: 10vh;
   z-index: 100;
 }
 
@@ -147,34 +148,47 @@ ul {
   background-image: url("images/Group.png");
   background-repeat: no-repeat;
   background-position: bottom right;
+  min-height: 82vh;
 }
 
 .title {
+  font-family: 'Crete Round', serif;
   font-size: 56px;
+  font-style: normal;
   font-weight: 400;
-  font-family: "Crete Round", serif;
-  margin-bottom: 0;
-  margin-top: 0;
+  line-height: 64px;
+  padding-top: 12rem;
   color: #ff6b00;
-  padding: 240px 24px 12px 24px;
+  margin-left: 1.5rem;
+  display: flex;
 }
 
 .sub-title {
-  color: #fff;
-  padding: 12px 24px 12px 24px;
-  height: 27px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-style: normal;
+  font-weight: 700;
   line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 1.5rem;
+  color: #fff5e1;
+  display: flex;
 }
 
-.paragraph {
-  font-family: "Poppins", sans-serif;
+.section1 .paragraph {
   display: flex;
-  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 1.5rem;
+  margin-right: 2rem;
+  width: 88%;
   color: #fff;
-  padding: 12px 24px 12px 24px;
 }
 
 .items {
@@ -230,7 +244,7 @@ ul {
 
 .my-recent-works {
   width: 86%;
-  margin-bottom: 0;
+  margin-left: 1.5rem;
 }
 
 .placeholder {
@@ -274,6 +288,7 @@ ul a {
   background: #f4f1f0;
   text-decoration: underline #87ceeb;
   border: 2px solid #87ceeb;
+  cursor: pointer;
 }
 
 .section3__project1 {
@@ -291,7 +306,7 @@ ul a {
   border: none;
   background: rgba(255, 107, 0, 1);
   text-decoration: none;
-  margin: 0 -24px -24px 0;
+  margin-top: 2rem;
   width: 100%;
 }
 
@@ -334,6 +349,7 @@ ul a {
   position: absolute;
   top: 0;
   left: 0;
+  margin-top: 1rem;
 }
 
 .section3-heading {
@@ -357,16 +373,16 @@ ul a {
   align-items: center;
   list-style: none;
   justify-content: space-evenly;
-  padding: 0 76px 22px 4px;
+  padding: 0 5rem 0.8rem 0.1rem;
 }
 
 .section3-item1 {
-  background: #ffffff7e;
+  /* background: #ffffff7e;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 8px;
-  color: white;
+  color: white; */
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -378,7 +394,7 @@ ul a {
   border: 2px solid #87ceeb;
 }
 
-.section3-item2 {
+/* .section3-item2 {
   background: #ffffff7e;
   display: flex;
   justify-content: center;
@@ -386,7 +402,7 @@ ul a {
   border: 0 solid #091e42;
   padding: 8px;
   color: #fff;
-}
+} */
 
 .section3-item2:hover {
   background: #ffffff3d;
@@ -401,7 +417,7 @@ ul a {
   border: 0 solid #091e42;
   padding: 8px;
   color: #fff;
-  background: #ffffff7e;
+  background: rgba(255, 255, 255, 0.24);
 }
 
 .section3-item3:hover {
@@ -410,7 +426,7 @@ ul a {
   border: 2px solid #87ceeb;
 }
 
-.section3__project {
+/* .section3__project {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -427,7 +443,7 @@ ul a {
   text-decoration: none;
   margin: 0 -24px -24px 0;
   width: 100%;
-}
+} */
 
 .section3__project:hover {
   text-decoration: underline #87ceeb;
@@ -510,11 +526,7 @@ ul a {
 
 .header-languages {
   display: flex;
-  margin-left: 68px;
-}
-
-.header-languages img {
-  margin-top: 29px;
+  margin-left: 58px;
 }
 
 .diagonal-img {
@@ -552,7 +564,7 @@ ul a {
 }
 
 .aboutme-item {
-  padding: 10px 4px;
+  padding: 1rem 0.5rem;
 }
 
 .aboutme-item:hover {
@@ -601,7 +613,7 @@ ul a {
 }
 
 .aboutme-frame-item {
-  padding: 10px 4px;
+  padding: 1rem 0.5rem;
 }
 
 .aboutme-frame-item:hover {
@@ -610,7 +622,8 @@ ul a {
 
 .circle-img {
   height: 30px;
-  margin: 20px;
+  margin: 8px;
+  margin-left: 4rem;
 }
 
 .circle-img:hover {
@@ -642,7 +655,7 @@ ul a {
 }
 
 .aboutme-skills-item {
-  padding: 10px 4px;
+  padding: 1rem 0.5rem;
 }
 
 .aboutme-skills-item:hover {
@@ -753,15 +766,15 @@ ul a {
   font-weight: 700;
   line-height: 44px;
   letter-spacing: 0;
-  margin: 80px 20px 73px 20px;
+  margin: 5rem 1rem 4rem 1.6rem;
   text-align: center;
-  width: 84%;
+  width: 86%;
 }
 
 .input-contact {
   height: 18px;
   font-family: "Inter", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-style: normal;
   margin: 33px 40px 0 40px;
   border: none;
@@ -774,6 +787,8 @@ ul a {
 
 .new-lining {
   width: 86%;
+  margin-left: 1.6rem;
+  margin-top: 1rem;
 }
 
 .contact-section textarea {
@@ -791,14 +806,14 @@ ul a {
   flex-direction: column;
   align-items: center;
   font-family: 'Inter', sans-serif;
-  font-size: 17px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.03em;
-  padding: 12px;
+  padding: 1.4rem;
   background: #ff6b00;
   border: none;
-  width: 40%;
+  width: 54%;
   color: #fff;
   margin: 24px auto;
   margin-bottom: 136px;
@@ -817,10 +832,9 @@ ul a {
 }
 
 .ending-lining {
-  height: 5px;
-  width: 134px;
-  left: 120px;
-  top: 21px;
+  height: 0.5rem;
+  width: 36%;
+  margin-left: 7rem;
   border-radius: 10px;
   background: rgba(13, 21, 30, 1);
 }
@@ -833,6 +847,8 @@ ul a {
   display: none;
 }
 
+/* Desktop */
+
 @media only screen and (min-width: 992px) {
   body {
     width: 100%;
@@ -844,13 +860,17 @@ ul a {
     display: none;
   }
 
+  .hamburger-menu {
+    display: none;
+  }
+
   .navbar-links {
     display: flex;
     margin-right: 30px;
   }
 
   .logo {
-    padding-left: 8rem;
+    padding-left: 11rem;
   }
 
   .desktop-nav-container {
@@ -863,6 +883,32 @@ ul a {
 
   .title {
     padding: 120px 24px 12px 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .sub-title {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .section-info .paragraph {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: left;
   }
 
   .desktop-nav {
@@ -887,12 +933,16 @@ ul a {
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 20px;
   }
 
+  .desktop-nav-link:hover {
+    color: #ecb56e;
+  }
+
   nav .logo {
-    margin-left: 80px;
+    margin-left: 800px;
   }
 
   .navbar li {
@@ -980,26 +1030,30 @@ ul a {
   }
 
   .section1 {
+    min-height: 100vh;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    background: url('desktop-images/Illustration-header.png');
-    background-color: #1c1a19;
-    background-position: right top;
-    background-repeat: no-repeat;
+    background: url('desktop-images/Illustration-header.png') rgba(28, 26, 25, 1) no-repeat;
+    background-position: right bottom;
   }
 
   .section-info {
     width: 46%;
-    font-family: 'Crete Round', serif;
     margin-right: 44%;
     margin-bottom: 0;
   }
 
   .section1 .title {
-    margin-left: 5%;
+    margin-left: 3%;
     padding: 0;
+    font-family: 'Crete Round', serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0;
+    text-align: left;
   }
 
   .section1 .sub-title {
@@ -1027,10 +1081,13 @@ ul a {
     border: none;
     color: #fff;
     margin-left: 0;
+    cursor: pointer;
   }
 
   .mail:hover {
-    text-decoration: underline #87ceeb;
+    transform: scale(1.2);
+    transition-duration: 150ms;
+    color: #e4752b;
   }
 
   .section2-Head_lining {
@@ -1196,13 +1253,13 @@ ul a {
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
+    margin-top: 11rem;
     height: 58px;
     color: #fff;
     cursor: pointer;
     border: none;
     background: rgba(255, 107, 0, 1);
     text-decoration: none;
-    margin: 0 -24px 0 0;
     width: 100%;
   }
 
