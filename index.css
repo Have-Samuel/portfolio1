@@ -773,9 +773,9 @@ ul a {
   font-weight: 700;
   line-height: 44px;
   letter-spacing: 0;
-  margin: 80px 20px 73px 20px;
+  margin: 5rem 1rem 4rem 1.6rem;
   text-align: center;
-  width: 84%;
+  width: 86%;
 }
 
 .input-contact {
@@ -794,6 +794,8 @@ ul a {
 
 .new-lining {
   width: 86%;
+  margin-left: 1.6rem;
+  margin-top: 1rem;
 }
 
 .contact-section textarea {
@@ -811,14 +813,14 @@ ul a {
   flex-direction: column;
   align-items: center;
   font-family: 'Inter', sans-serif;
-  font-size: 17px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.03em;
-  padding: 12px;
+  padding: 1.4rem;
   background: #ff6b00;
   border: none;
-  width: 40%;
+  width: 54%;
   color: #fff;
   margin: 24px auto;
   margin-bottom: 136px;
