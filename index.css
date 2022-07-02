@@ -1170,11 +1170,11 @@ ul a {
     padding: 2rem;
   }
 
-  .section-paragraph {
+  /* .section-paragraph {
     position: absolute;
     top: 0;
     left: 0.3rem;
-  }
+  } */
 
   .empty-card {
     display: flex;
@@ -1190,22 +1190,22 @@ ul a {
     display: none;
   }
 
-  .section3 > h4 {
+  /* .section3 > h4 {
     margin-left: 14px;
-    /* margin-top: 18rem; */
-  }
+    margin-top: 18rem;
+  } */
 
   .section3-heading {
-    padding-top: 12rem;
+    padding-top: 10rem;
   }
 
   .section3-items {
     margin-right: 5rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
 
   .section3-paragraph {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
 
   /* .section3 > p {
