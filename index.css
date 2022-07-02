@@ -781,7 +781,7 @@ ul a {
 .input-contact {
   height: 18px;
   font-family: "Inter", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-style: normal;
   margin: 33px 40px 0 40px;
   border: none;
@@ -839,10 +839,10 @@ ul a {
 }
 
 .ending-lining {
-  height: 5px;
-  width: 134px;
-  left: 120px;
-  top: 21px;
+  height: 0.5rem;
+  width: 36%;
+  margin-left: 7rem;
+  /* margin-right: 12rem; */
   border-radius: 10px;
   background: rgba(13, 21, 30, 1);
 }
