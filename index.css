@@ -1196,11 +1196,16 @@ ul a {
   }
 
   .section3-heading {
-    padding-top: 10rem;
+    padding-top: 12rem;
+  }
+
+  .section3-items {
+    margin-right: 5rem;
+    margin-top: 1rem;
   }
 
   .section3-paragraph {
-    /* margin-top: 5rem; */
+    margin-top: 1rem;
   }
 
   /* .section3 > p {
