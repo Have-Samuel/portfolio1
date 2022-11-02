@@ -258,35 +258,12 @@ hr {
   color: #091e42;
 }
 
-ul a {
-  text-decoration: none;
-}
-
 .language-container ul li:hover,
 .language-container ul li:active {
   background: #f4f1f0;
   border: 2px solid #87ceeb;
   cursor: pointer;
 }
-
-/* .section3__project1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "inter", sans-serif;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  height: 58px;
-  color: #fff;
-  cursor: pointer;
-  border: none;
-  background: rgba(255, 107, 0, 1);
-  text-decoration: none;
-  margin: 0 -24px -24px 0;
-  width: 100%;
-} */
 
 .see__project {
   background-color: #ff6b00;
@@ -299,6 +276,7 @@ ul a {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+  border-radius: 5px;
   margin: 0 10.2rem 1.5rem 1.5rem;
 }
 
@@ -309,18 +287,13 @@ ul a {
 }
 
 .section3 {
-  margin: 24px;
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(165, 163, 163, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(images/Background.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/Grounding.png');
+  /* width: 327px; */
+  margin: 1.5rem;
 }
 
 .section3-heading {
-  margin: 84px 16px 12px 16px;
+  margin: 5.25rem 1rem 0.75rem 1rem;
   font-family: "Crete Round", sans-serif;
   font-size: 32px;
   font-weight: 400;
@@ -340,7 +313,7 @@ ul a {
   align-items: center;
   list-style: none;
   justify-content: space-evenly;
-  padding: 0 75px 22px 4px;
+  padding: 0 4.7rem 1.4rem 0.25rem;
 }
 
 .section3-item1 {
@@ -348,15 +321,14 @@ ul a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0 solid #f0f2f5;
   padding: 8px;
   color: white;
+  border-radius: 5px;
 }
 
 .section3-item1:hover {
-  background: #ffffff3d;
-  text-decoration: underline #87ceeb;
-  border: 2px solid #87ceeb;
+  background-color: #ffffff3d;
+  cursor: pointer;
 }
 
 .section3-item2 {
@@ -364,34 +336,32 @@ ul a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0 solid #091e42;
   padding: 8px;
   color: #fff;
+  border-radius: 5px;
 }
 
 .section3-item2:hover {
-  background: #ffffff3d;
-  text-decoration: underline #87ceeb;
-  border: 2px solid #87ceeb;
+  background-color: #ffffff3d;
+  cursor: pointer;
 }
 
 .section3-item3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0 solid #091e42;
   padding: 8px;
   color: #fff;
   background: #ffffff7e;
+  border-radius: 5px;
 }
 
 .section3-item3:hover {
   background: #ffffff3d;
-  text-decoration: underline #87ceeb;
-  border: 2px solid #87ceeb;
+  cursor: pointer;
 }
 
-.section3__project {
+.section3__project1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -409,6 +379,25 @@ ul a {
   margin: 0 -24px -24px 0;
   width: 100%;
 }
+
+/* .section3__project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "inter", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  height: 58px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  background: rgba(255, 107, 0, 1);
+  text-decoration: none;
+  margin: 0 -24px -24px 0;
+  width: 100%;
+} */
 
 .section3__project:hover {
   text-decoration: underline #87ceeb;
