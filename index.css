@@ -5,10 +5,11 @@
 * {
   box-sizing: border-box;
   padding: 0;
+  margin: 0;
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: 'Dosis', sans-serif;
   width: 100%;
   overflow-x: hidden;
@@ -141,40 +142,37 @@ ul {
 }
 
 .section1 {
-  background-color: #1c1a19;
-  display: flex;
-  flex-direction: column;
-  background-image: url("images/Group.png");
+  background: url("images/Group.png"), rgb(28, 26, 25);
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: 100% 112%;
 }
 
 .title {
   font-size: 56px;
   font-weight: 400;
   font-family: "Crete Round", serif;
-  margin-bottom: 0;
-  margin-top: 0;
   color: #ff6b00;
-  padding: 240px 24px 12px 24px;
+  padding: 13.25rem 1.5rem 0 1.5rem;
 }
 
 .sub-title {
-  color: #fff;
-  padding: 12px 24px 12px 24px;
-  height: 27px;
+  color: #fff5e1;
+  margin: 0 1.5rem;
   font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   line-height: 32px;
 }
 
 .paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
   font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
   color: #fff;
-  padding: 12px 24px 12px 24px;
+  padding: 0.75rem 1rem;
 }
 
 .items {
@@ -850,10 +848,6 @@ ul a {
     justify-content: space-between;
   }
 
-  .title {
-    padding: 120px 24px 12px 24px;
-  }
-
   .desktop-nav {
     color: white;
     display: flex;
@@ -940,22 +934,28 @@ ul a {
     background-repeat: no-repeat;
   }
 
-  .section-info {
+  /* .section-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 5px solid blue;
     width: 46%;
     font-family: 'Crete Round', serif;
     margin-right: 44%;
     margin-bottom: 0;
-  }
+  } */
 
   .section1 .title {
     margin-left: 5%;
     padding: 0;
   }
 
-  .section1 .sub-title {
+  /* .section1 .sub-title {
     margin-bottom: 0;
     margin-top: 0;
-  }
+  } */
 
   .section1 .paragraph {
     padding-top: 0;
