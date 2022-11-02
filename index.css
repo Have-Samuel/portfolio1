@@ -286,6 +286,10 @@ hr {
   background: #e4d9d5;
 }
 
+.section-cards {
+  margin-bottom: 7.5rem;
+}
+
 .section3 {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/Grounding.png');
   /* width: 327px; */
@@ -293,12 +297,13 @@ hr {
 }
 
 .section3-heading {
-  margin: 5.25rem 1rem 0.75rem 1rem;
+  margin: 2rem 1rem 0.75rem 1rem;
   font-family: "Crete Round", sans-serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
   color: #fff;
+  padding-top: 4rem;
 }
 
 .section3-paragraph {
@@ -374,13 +379,20 @@ hr {
   color: #fff;
   cursor: pointer;
   border: none;
-  background: rgba(255, 107, 0, 1);
+  background-color: rgba(255, 107, 0, 1);
   text-decoration: none;
-  margin: 0 -24px -24px 0;
-  width: 100%;
+  /* margin: 0 -24px -24px 0; */
+  /* width: 100%; */
 }
 
-/* .section3__project {
+.section3__project1:hover,
+.section3__project1active {
+  border: 2px solid rgba(255, 107, 0, 1);
+  color: rgba(255, 107, 0, 1);
+  background-color: #fff;
+}
+
+.section3__project {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -395,13 +407,14 @@ hr {
   border: none;
   background: rgba(255, 107, 0, 1);
   text-decoration: none;
-  margin: 0 -24px -24px 0;
-  width: 100%;
-} */
+  /* margin: 0 -24px -24px 0; */
+  /* width: 100%; */
+}
 
 .section3__project:hover {
-  text-decoration: underline #87ceeb;
-  border: 2px solid #87ceeb;
+  border: 2px solid rgba(255, 107, 0, 1);
+  color: rgba(255, 107, 0, 1);
+  background-color: #fff;
 }
 
 .aboutme-section {
@@ -1120,7 +1133,7 @@ hr {
     padding-bottom: 1%;
   }
 
-  .section3__project1 {
+  /* .section3__project1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1136,12 +1149,7 @@ hr {
     background: rgba(255, 107, 0, 1);
     text-decoration: none;
     margin: 0 -24px 0 0;
-    width: 100%;
-  }
-
-  .section3__project1:hover {
-    text-decoration: underline #87ceeb;
-    border: 2px solid #87ceeb;
+    width: 100%; */
   }
 
   .aboutme-section {
