@@ -7,7 +7,6 @@
   padding: 0;
   margin: 0;
   width: auto;
-
 }
 
 body {
@@ -160,21 +159,8 @@ ul {
   font-size: 56px;
   font-style: normal;
   font-weight: 400;
-  font-family: "Crete Round", serif;
   color: #ff6b00;
   padding: 13.25rem 1.5rem 0 1.5rem;
-}
-
-.sub-title {
-  color: #fff5e1;
-  margin: 0 1.5rem;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  line-height: 64px;
-  padding-top: 12rem;
-  color: #ff6b00;
-  margin-left: 1.5rem;
-  display: flex;
 }
 
 .sub-title {
@@ -190,8 +176,6 @@ ul {
   display: flex;
 }
 
-.paragraph {
-  font-size: 16px;
 .section1 .paragraph {
   display: flex;
   font-family: 'Poppins', sans-serif;
@@ -201,14 +185,11 @@ ul {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  font-family: "Poppins", sans-serif;
   color: #fff;
   padding: 0.75rem 1rem;
-
   margin-left: 1.5rem;
   margin-right: 2rem;
   width: 88%;
-  color: #fff;
 }
 
 .items {
@@ -224,26 +205,6 @@ ul {
   margin: 8px;
   border-radius: 4px;
 }
-
-/* .heading {
-  height: 83px;
-  font-family: "Crete Round", sans-serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  text-align: center;
-  padding-top: 120px;
-  color: #091e42;
-} */
-
-/* .first-line {
-  width: 80%;
-}
-
-.head-line {
-  margin: 0 24px;
-  border: 1px solid #212121;
-} */
 
 .section2-Head_lining h2 {
   color: #091e42;
@@ -300,7 +261,6 @@ hr {
   background: #f4f1f0;
   border: 2px solid #87ceeb;
   cursor: pointer;
-  cursor: pointer;
 }
 
 .section3__project1 {
@@ -348,8 +308,8 @@ hr {
 }
 
 .section3 {
-
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/Grounding.png');
+
   /* width: 327px; */
   margin: 1.5rem;
   margin: 24px;
@@ -399,14 +359,6 @@ hr {
 }
 
 .section3-item1 {
-  /* background: #ffffff7e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  color: white;
-  border-radius: 5px;
-  color: white; */
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -416,16 +368,6 @@ hr {
   background-color: #ffffff3d;
   cursor: pointer;
 }
-
-/* .section3-item2 {
-  background: #ffffff7e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  color: #fff;
-  border-radius: 5px;
-} */
 
 .section3-item2:hover {
   background-color: #ffffff3d;
@@ -438,7 +380,6 @@ hr {
   align-items: center;
   padding: 8px;
   color: #fff;
-  background: #ffffff7e;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.24);
 }
@@ -448,25 +389,6 @@ hr {
   cursor: pointer;
 }
 
-.section3__project1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "inter", sans-serif;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  height: 58px;
-  color: #fff;
-  cursor: pointer;
-  border: none;
-  background-color: rgba(255, 107, 0, 1);
-  text-decoration: none;
-  /* margin: 0 -24px -24px 0; */
-  /* width: 100%; */
-}
-
 .section3__project1:hover,
 .section3__project1active {
   border: 2px solid rgba(255, 107, 0, 1);
@@ -474,7 +396,7 @@ hr {
   background-color: #fff;
 }
 
-/* .section3__project {
+.section3__project {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -489,11 +411,9 @@ hr {
   border: none;
   background: rgba(255, 107, 0, 1);
   text-decoration: none;
-  /* margin: 0 -24px -24px 0; */
-  /* width: 100%; */
   margin: 0 -24px -24px 0;
   width: 100%;
-} */
+}
 
 .section3__project:hover {
   border: 2px solid rgba(255, 107, 0, 1);
@@ -901,10 +821,6 @@ hr {
 /* Desktop */
 
 @media only screen and (min-width: 992px) {
-  
-  
-  
-
   .navbar {
     padding: 0 30px;
     display: none;
@@ -1089,18 +1005,6 @@ hr {
     background-position: right bottom;
   }
 
-  /* .section-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    border: 5px solid blue;
-    width: 46%;
-    margin-right: 44%;
-    margin-bottom: 0;
-  } */
-
   .section1 .title {
     margin-left: 3%;
     padding: 0;
@@ -1111,11 +1015,6 @@ hr {
     letter-spacing: 0;
     text-align: left;
   }
-
-  /* .section1 .sub-title {
-    margin-bottom: 0;
-    margin-top: 0;
-  } */
 
   .section1 .paragraph {
     padding-top: 0;
@@ -1213,7 +1112,7 @@ hr {
     margin-top: -10px;
   }
 
-  /* .see__project {
+  .see__project {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1227,7 +1126,7 @@ hr {
     border: none;
     width: 30%;
     color: #fff;
-  } */
+  }
 
   .project {
     display: grid;
@@ -1317,9 +1216,8 @@ hr {
     background: rgba(255, 107, 0, 1);
     text-decoration: none;
     margin: 0 -24px 0 0;
-    width: 100%; */
     width: 100%;
-  }
+  } */
 
   .section3__project1:hover {
     text-decoration: underline #87ceeb;
