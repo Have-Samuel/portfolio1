@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/> 
     <title>Portfolio</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
+        <div class="hamburger-menu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
         <div class="desktop-nav-container">
           <a class="logo" href="#">Have</a>
+          <a class="logo" href="#">Have Samuel</a>
           <nav class="desktop-nav">
             <ul class="desktop-nav-items">
               <li class="desktop-nav-li">
@@ -26,7 +34,7 @@
                 >
               </li>
               <li class="desktop-nav-li">
-                <button type="button" class="mail">&#9993;</button>
+                <img class="mail" src="images/Union.svg" alt="Envelope icon taken from Figma">
               </li>
             </ul>
           </nav>
@@ -53,11 +61,6 @@
           </nav>
         </div>
       </div>
-
-      <section>
-        
-      </section>
-      
     </header>
     <section class="section1">
       <div class="section-info">
@@ -90,6 +93,8 @@
         </li>
       </ul>
     </section>
+
+    
     <section class="section2" id="section2-nav">
       <div class="section2-Head_lining">
         <h2>My Recent Works</h2>
@@ -203,7 +208,13 @@
           </ul>
           <a href="#" class="section3__project">See Project</a>
         </section>
+
+      <div>
+        <div class="project section-cards">
+          
+        </div>
       </div>
+    
       <section class="aboutme-section" id="aboutme">
         <div class="aboutme-header">
           <div class="aboutme-Info">
@@ -275,35 +286,17 @@
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.
           </p>
-          <form action="https://formspree.io/f/xrgjezpe" method="post">
+          <form action="https://formspree.io/f/xrgjezpe" id="signup" method="post">
             <input
-              class="input-contact second-names"
-              type="text"
-              name="full_name"
-              placeholder="Full name"
-              maxlength="30"
-              required
-            />
+              class="input-contact second-names" type="text" name="full_name" placeholder="Full name" maxlength="30" required />
             <hr class="new-lining" />
             <input
-              class="input-contact"
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email address"
-              required
-            />
-            <br />
-            <hr class="new-lining" />
-            <textarea
-              name="comments"
-              id="comments"
-              cols="40"
-              rows="10"
-              maxlength="500"
-              placeholder="Enter text here"
-              required
-            ></textarea>
+              class="input-contact" type="email" name="email" id="email" placeholder="Email address" required pattern="[ee]mail"/>
+              <small></small>
+              <br />
+            <hr class="new-lining" /> 
+            <textarea name="comments" id="comments" cols="40" rows="8" maxlength="100" placeholder="Enter text here" required>
+            </textarea>
             <input type="button" class="contact-button" value="Get in touch" />
           </form>
         </div>
@@ -339,6 +332,7 @@
       </section>
     </section>
 
+    
     <script src="script.js"></script>
   </body>
 </html>
