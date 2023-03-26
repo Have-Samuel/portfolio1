@@ -41,7 +41,7 @@ Make any necessary editing.
 👤 **Have-Samuel**
 - GitHub: [Have](https://github.com/Have-Samuel)
 - Twitter: [samie@1](https://twitter.com/home)
-- LinkedIn: [Have Samuel](https://www.linkedin.com/feed/)
+- LinkedIn: [Have Samuel](https://www.linkedin.com/in/have-samuel/)
 
 ## 🤝 Contributing
 
