@@ -30,38 +30,39 @@ const projects = [
 
 const arrClassName = ['project1', 'project2', 'project3', 'project4', 'project5', 'project6'];
 
-  function createProject(project, name) {
-  const techItem = `
-  <div class='${name}'>
-      <section class='section3 section-cards empty-card'>
-      <div id='post-container'>
-      <img class='image' src='${project.featuredImage}' alt='portfolio'/>
-      </div>
-    <div class='section-paragraph'>
-      <h4 class='section3-heading'>${project.name}</h4>
-        <ul class='skills'></ul>
-    <p class='section3-paragraph'>
-      ${project.description}
-    </p>
-    <ul class='section3-items'>
-  ${project.technologies
-    .map(
-      (tech) => `<li class='section3-item1 section3-item2 section3-item3'>${tech}</li>`)
-    .join('')}
-  </ul>
-  <button class=section3__project1' onclick='model('.${name}')' id='${
-    project.projectId
-  }'>See Project</button>
-  </div>
-  </section>
-  </div>
-  `;
-    return techItem;
-  }; 
+function createProject(project, name) {
+const techItem = `
+<div class='${name}'>
+    <section class='section3 section-cards empty-card'>
+    <div id='post-container'>
+    <img class='image' src='${project.featuredImage}' alt='portfolio'/>
+    </div>
+  <div class='section-paragraph'>
+    <h4 class='section3-heading'>${project.name}</h4>
+      <ul class='skills'></ul>
+  <p class='section3-paragraph'>
+    ${project.description}
+  </p>
+  <ul class='section3-items'>
+${project.technologies
+  .map(
+    (tech) => `<li class='section3-item1 section3-item2 section3-item3'>${tech}</li>`
+  )
+  .join('')}
+</ul>
+<button class=section3__project1' onclick='model('.${name}')' id='${
+  project.projectId
+}'>See Project</button>
+</div>
+</section>
+</div>
+`;
+  return techItem;
+}
 
-  for (let i = 0; i < 6; i += 1) {
-    allProjects.innerHTML += createProject(projects[0], arrClassName[i]);
-};
+for (let i = 0; i < 6; i += 1) {
+  allProjects.innerHTML += createProject(projects[0], arrClassName[i]);
+}
 
 function model(name) {
   const languages = ['html', 'Bootstrap', 'Ruby on Rails'];
@@ -84,7 +85,7 @@ function model(name) {
   const ul = document.createElement('ul');
   ul.className = 'popup-items';
   technologies.appendChild(ul);
-  
+
   for (let i = 0; i < languages.length; i += 1){
     const li = document.createElement('li');
     li.clasName = 'popup-item';
@@ -97,7 +98,7 @@ function model(name) {
   popupImageContainer.className = 'popup-paraimg';
   projectImage.className = 'popup-image';
   const description = document.createElement('p');
-  
+
   projectImage.src = 'popup-images/Snapshoot Portfolio.png';
   description.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maiores quo libero perferendis delectus dolore quisquam alias a sit accusantium dignissimos dolorem';
   popupImageContainer.append(projectImage, description);
@@ -115,16 +116,16 @@ function model(name) {
     button.className = 'project-button';
     image.className = 'modal-icon';
     image.appendChild(icon1);
-    
+
     button.append(buttonName[i], image );
     li.appendChild(button);
     buttonList.appendChild(li);
-  };
+  }
 
   icon.addEventListener('click', () => {
     parentDiv.classList.toggle('togglePopup');
   });
-  
+
   modalDiv.append(multiStories, technologies, popupImageContainer, buttonList);
   section.appendChild(modalDiv);
   parentDiv.appendChild(section);
