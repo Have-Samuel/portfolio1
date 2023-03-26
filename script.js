@@ -12,10 +12,8 @@ menuIcon.addEventListener('click', () => {
   navbar.classList.toggle('change');
 });
 
-
-
 const allProjects = document.querySelector('.project');
-const popup = document.querySelector('.popup-project'); 
+// const popup = document.querySelector('.popup-project');
 
 const projects = [
   {
@@ -32,58 +30,49 @@ const projects = [
 
 const arrClassName = ['project1', 'project2','project3', 'project4', 'project5', 'project6'];
 
-
   function createProject(project, name) {
-    const techItem = `
-    <div class='${name}'>
-       <section class='section3 section-cards empty-card'>
-       <div id='post-container'>
-       <img class='image' src='${project.featuredImage}' alt='portfolio'/>
-       </div>
-      <div class='section-paragraph'>
-        <h4 class='section3-heading'>${project.name}</h4>
-         <ul class='skills'></ul>
-      <p class='section3-paragraph'>
-        ${project.description}
-      </p>
-      <ul class='section3-items'>
-    ${project.technologies
-      .map(
-        (tech) =>
-          `<li class='section3-item1 section3-item2 section3-item3'>${tech}</li>`
-      )
-      .join('')}
-    </ul>
-    <button class=section3__project1' onclick='model('.${name}')' id="${
-      project.projectId
-    }'>See Project</button>
-    </div>
-    </section>
-   </div>
-    `;
+  const techItem = `
+  <div class='${name}'>
+      <section class='section3 section-cards empty-card'>
+      <div id='post-container'>
+      <img class='image' src='${project.featuredImage}' alt='portfolio'/>
+      </div>
+    <div class='section-paragraph'>
+      <h4 class='section3-heading'>${project.name}</h4>
+        <ul class='skills'></ul>
+    <p class='section3-paragraph'>
+      ${project.description}
+    </p>
+    <ul class='section3-items'>
+  ${project.technologies
+    .map(
+      (tech) =>
+        `<li class='section3-item1 section3-item2 section3-item3'>${tech}</li>`
+    )
+    .join('')}
+  </ul>
+  <button class=section3__project1' onclick='model('.${name}')' id='${
+    project.projectId
+  }'>See Project</button>
+  </div>
+  </section>
+  </div>
+  `;
     return techItem;
-  } 
+  }; 
 
   for (let i = 0; i < 6; i += 1) {
     allProjects.innerHTML += createProject(projects[0], arrClassName[i]);
-} 
-    
- 
-function model(name) {
- 
+};
 
+function model(name) {
   const languages = ['html', 'Bootstrap', 'Ruby on Rails'];
-  
   const parentDiv = document.createElement('div');
   parentDiv.className = 'parent-div';
   const section = document.createElement('section');
   section.className = 'popup-section';
-  
-
   const modalDiv = document.createElement('div');
   modalDiv.className = 'popup-modal';
-  
-
   const multiStories = document.createElement('div');
   multiStories.className = 'multi-stories';
   const icon = document.createElement('i');
@@ -113,9 +102,7 @@ function model(name) {
   
   projectImage.src = 'popup-images/Snapshoot Portfolio.png';
   description.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maiores quo libero perferendis delectus dolore quisquam alias a sit accusantium dignissimos dolorem';
-
   popupImageContainer.append(projectImage, description);
-
   const buttonList = document.createElement('ul');
   buttonList.className = 'modal-btn';
   const buttonName = ['See live', 'See source'];
@@ -134,35 +121,15 @@ function model(name) {
     button.append(buttonName[i], image );
     li.appendChild(button);
     buttonList.appendChild(li);
-  }
+  };
 
   icon.addEventListener('click', () => {
     parentDiv.classList.toggle('togglePopup');
-  })
+  });
   
   modalDiv.append(multiStories, technologies, popupImageContainer, buttonList)
   section.appendChild(modalDiv);
-  
   parentDiv.appendChild(section);
-
- 
-
-
   const popupContainer = document.querySelector(name);
   popupContainer.appendChild(parentDiv);
-
-  
-}
-
-
-
-
-
-
-
-   
-
-
-
-
-
+};
