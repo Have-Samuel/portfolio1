@@ -25,13 +25,13 @@ const projects = [
     technologies: ['html', 'Bootstrap', 'Ruby'],
     liveLink: 'https://have-samuel.github.io/portfolio1/',
     sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
-  }
+  },
 ];
 
 const arrClassName = ['project1', 'project2', 'project3', 'project4', 'project5', 'project6'];
 
 function createProject(project, name) {
-const techItem = `
+  const techItem = `
 <div class='${name}'>
     <section class='section3 section-cards empty-card'>
     <div id='post-container'>
@@ -45,9 +45,9 @@ const techItem = `
   </p>
   <ul class='section3-items'>
 ${project.technologies
-  .map(
-    (tech) => `<li class='section3-item1 section3-item2 section3-item3'>${tech}</li>`
-  )
+    .map(
+      (tech) => `<li class='section3-item1 section3-item2 section3-item3'>${tech}</li>`
+    )
   .join('')}
 </ul>
 <button class=section3__project1' onclick='model('.${name}')' id='${
@@ -86,7 +86,7 @@ function model(name) {
   ul.className = 'popup-items';
   technologies.appendChild(ul);
 
-  for (let i = 0; i < languages.length; i += 1){
+  for (let i = 0; i < languages.length; i += 1) {
     const li = document.createElement('li');
     li.clasName = 'popup-item';
     li.innerHTML = languages[i];
@@ -117,7 +117,7 @@ function model(name) {
     image.className = 'modal-icon';
     image.appendChild(icon1);
 
-    button.append(buttonName[i], image );
+    button.append(buttonName[i], image);
     li.appendChild(button);
     buttonList.appendChild(li);
   }
