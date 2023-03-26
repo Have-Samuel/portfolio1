@@ -28,7 +28,7 @@ const projects = [
   }
 ];
 
-const arrClassName = ['project1', 'project2','project3', 'project4', 'project5', 'project6'];
+const arrClassName = ['project1', 'project2', 'project3', 'project4', 'project5', 'project6'];
 
   function createProject(project, name) {
   const techItem = `
@@ -46,9 +46,7 @@ const arrClassName = ['project1', 'project2','project3', 'project4', 'project5',
     <ul class='section3-items'>
   ${project.technologies
     .map(
-      (tech) =>
-        `<li class='section3-item1 section3-item2 section3-item3'>${tech}</li>`
-    )
+      (tech) => `<li class='section3-item1 section3-item2 section3-item3'>${tech}</li>`)
     .join('')}
   </ul>
   <button class=section3__project1' onclick='model('.${name}')' id='${
@@ -127,9 +125,9 @@ function model(name) {
     parentDiv.classList.toggle('togglePopup');
   });
   
-  modalDiv.append(multiStories, technologies, popupImageContainer, buttonList)
+  modalDiv.append(multiStories, technologies, popupImageContainer, buttonList);
   section.appendChild(modalDiv);
   parentDiv.appendChild(section);
   const popupContainer = document.querySelector(name);
   popupContainer.appendChild(parentDiv);
-};
+}
