@@ -48,7 +48,7 @@ ${project.technologies
     .map(
       (tech) => `<li class='section3-item1 section3-item2 section3-item3'>${tech}</li>`
     )
-  .join('')}
+    .join('')}
 </ul>
 <button class=section3__project1' onclick='model('.${name}')' id='${
   project.projectId
@@ -132,3 +132,5 @@ function model(name) {
   const popupContainer = document.querySelector(name);
   popupContainer.appendChild(parentDiv);
 }
+
+model();
