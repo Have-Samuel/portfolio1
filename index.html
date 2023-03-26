@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/> 
@@ -18,6 +19,7 @@
           <div class="line line-3"></div>
         </div>
         <div class="desktop-nav-container">
+          <a class="logo" href="#">Have</a>
           <a class="logo" href="#">Have Samuel</a>
           <nav class="desktop-nav">
             <ul class="desktop-nav-items">
@@ -46,15 +48,15 @@
             <ul class="nav-list">
               <li class="nav-item">
                 <a href="#section2-nav" class="nav-link">Portfolio</a>
-                <hr />
+                <!-- <hr /> -->
               </li>
               <li class="nav-item">
                 <a href="#aboutme" class="nav-link">About</a>
-                <hr />
+                <!-- <hr /> -->
               </li>
               <li class="nav-item">
                 <a href="#contact-section_nav" class="nav-link">Contact</a>
-                <hr />
+                <!-- <hr /> -->
               </li>
             </ul>
           </nav>
@@ -97,7 +99,7 @@
     <section class="section2" id="section2-nav">
       <div class="section2-Head_lining">
         <h2>My Recent Works</h2>
-        <hr class="my-recent-works" />
+        <hr/>
       </div>
       <div class="section2-placeholder">
         <img
@@ -116,17 +118,98 @@
             </p>
             <div class="language-container">
               <ul>
-                <li>CSS</li>
-                <li>HTML</li>
-                <li>Bootstrap</li>
+                <li>css</li>
+                <li>html</li>
                 <li>Ruby</li>
+                <li>Rails</li>
               </ul>
             </div>
             <a href="#" class="see__project">See Project</a>
           </div>
         </div>
       </div>
-
+      <div class="section-cards">
+        <section class="section3 empty-card" id="one">
+          <div id="empty-card_content">
+            <h4 class="section3-heading">Proffesional Art Printing Data</h4>
+            <p class="section3-paragraph">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul class="section3-items">
+              <li class="section3-item1">html</li>
+              <li class="section3-item2">Bootstrap</li>
+              <li class="section3-item3">Ruby</li>
+            </ul>
+          </div>
+          <a href="#" class="section3__project1">See Project</a>
+        </section>
+        <section class="section3" id="two">
+          <h4 class="section3-heading">Proffesional Art Printing Data</h4>
+          <p class="section3-paragraph">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="section3-items">
+            <li class="section3-item1">html</li>
+            <li class="section3-item2">Bootstrap</li>
+            <li class="section3-item3">Ruby</li>
+          </ul>
+          <a href="#" class="section3__project">See Project</a>
+        </section>
+        <section class="section3" id="three">
+          <h4 class="section3-heading">Proffesional Art Printing Data</h4>
+          <p class="section3-paragraph">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="section3-items">
+            <li class="section3-item1">html</li>
+            <li class="section3-item2">Bootstrap</li>
+            <li class="section3-item3">Ruby</li>
+          </ul>
+          <a href="#" class="section3__project">See Project</a>
+        </section>
+        <section class="section3" id="four">
+          <h4 class="section3-heading">Proffesional Art Printing Data</h4>
+          <p class="section3-paragraph">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="section3-items">
+            <li class="section3-item1">html</li>
+            <li class="section3-item2">Bootstrap</li>
+            <li class="section3-item3">Ruby</li>
+          </ul>
+          <a href="#" class="section3__project">See Project</a>
+        </section>
+        <section class="section3" id="five">
+          <h4 class="section3-heading">Proffesional Art Printing Data</h4>
+          <p class="section3-paragraph">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="section3-items">
+            <li class="section3-item1">html</li>
+            <li class="section3-item2">Bootstrap</li>
+            <li class="section3-item3">Ruby</li>
+          </ul>
+          <a href="#" class="section3__project">See Project</a>
+        </section>
+        <section class="section3" id="six">
+          <h4 class="section3-heading">Proffesional Art Printing Data</h4>
+          <p class="section3-paragraph">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="section3-items">
+            <li class="section3-item1">html</li>
+            <li class="section3-item2">Bootstrap</li>
+            <li class="section3-item3">Ruby</li>
+          </ul>
+          <a href="#" class="section3__project">See Project</a>
+        </section>
+      </div>
       <div>
         <div class="project section-cards">
           
@@ -200,10 +283,10 @@
       </section>
       <section class="contact-section" id="contact-section_nav">
         <div class="contact-section_form">
-          <p>
+          <h3>
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.
-          </p>
+          </h3>
           <form action="https://formspree.io/f/xrgjezpe" id="signup" method="post">
             <input
               class="input-contact second-names" type="text" name="full_name" placeholder="Full name" maxlength="30" required />
@@ -249,8 +332,5 @@
         <hr class="ending-lining" />
       </section>
     </section>
-
-    
-    <script src="script.js"></script>
   </body>
 </html>

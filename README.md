@@ -39,9 +39,9 @@ Make any necessary editing.
 ## Authors
 
 👤 **Have-Samuel**
-- GitHub: [@githubhandle](https://github.com/Have-Samuel)
-- Twitter: [@twitterhandle](https://twitter.com/home)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/feed/)
+- GitHub: [Have](https://github.com/Have-Samuel)
+- Twitter: [samie@1](https://twitter.com/home)
+- LinkedIn: [Have Samuel](https://www.linkedin.com/in/have-samuel/)
 
 ## 🤝 Contributing
 
